@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+</head>
+<body>
+ <h3>Registration Form</h3>
+ <fieldset>
+  <legend>Personal Information</legend>
+  <label for="name">Name:</label>
+  <input id="name" type="text">
+  <br><br>
+  <label for="dob">Date of Birth</label>
+  <input id="dob" type="date">
+  <br><br>
+  <span>Gender:</span>
+  <input id="female" type="radio" name="gender">
+  <label for="female">Female</label>
+  <input id="male" type="radio" name="gender">
+  <label for="male">Male</label>
+  <input id="other" type="radio" name="gender">
+  <label for="other">Other</label>
+ </fieldset>
+ <fieldset>
+  <legend>Contact Information</legend>
+  <label for="email">Email:</label>
+  <input id="email" type="email">
+  <br><br>
+  <label for="number">Phone Number:</label>
+  <input id="number" type="number">
+  <br><br>
+  <label for="address">Address</label>
+  <br>
+  <textarea name="address" id="address"></textarea>
+ </fieldset>
+ <fieldset>
+  <legend>Account Details</legend>
+  <label for="input">Username</label>
+  <input id="input" type="text">
+  <br><br>
+  <label for="password">Password</label>
+  <input id="password" type="password">
+  <br><br>
+  <label for="conpassword">Confirm Password</label>
+  <input id="conpassword" type="password">
+ </fieldset>
+ <fieldset>
+  <legend>Preferences</legend>
+  <label for="color">Favorite Color</label>
+  <input id="color" type="color">
+  <br><br>
+  <label for="picture">Upload Profile Picture:</label>
+  <input id="picture" type="file">
+  <br><br>
+  <span>Interests:</span>
+  <input id="reading" type="checkbox" name="interest">
+  <label for="reading">Reading</label>
+  <input id="travel" type="checkbox" name="interest">
+  <label for="travel">Traveling</label>
+  <input id="code" type="checkbox" name="interest">
+  <label for="code">Coding</label>
+ </fieldset>
+ <input type="button" value="Submit">
+ 
+</body>
+</html>
