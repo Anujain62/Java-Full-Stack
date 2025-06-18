@@ -1,0 +1,45 @@
+/* combination selector */
+div p{
+ background-color: blue;
+}
+
+
+/* shudo classes */
+/* here we can pass direct number or even,odd */
+/* ul li:nth-of-type(even){
+ background-color: red;
+} */
+
+/* for selecting first child */
+/* ul li:first-child{
+ background-color: brown;
+} */
+
+
+/* when we hover the any part ,this was change the color */
+/* ul li:hover{
+ background-color: chartreuse;
+} */
+
+
+input:hover{
+ background-color: red;
+ transition: 3s;
+}
+/* when we click at a particular part ,it changes the color */
+input:focus{
+ background-color: blue;
+}
+
+
+/* before and after -> for writing new text dynamically */
+h3::before{
+ content: "😊";
+ background-color: aqua;
+}
+h3::after{
+ content: "😜";
+ background-color: bisque;
+}
+
+

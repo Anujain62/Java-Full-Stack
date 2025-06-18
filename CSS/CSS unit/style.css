@@ -1,0 +1,43 @@
+/* types of units -> [ absolute unit(fix) -> px,cm] ,[ relative unit -> %,vw,vh,em,rem ]*/
+#parent{
+ background-color: blue;
+ height: 200px;
+ width: 200px;
+}
+#child{
+ background-color: brown;
+
+ /* it does not depend's on the parent height,width */
+ /* height: 100px;
+ width: 100px; */
+
+ /* it is depends on the parent,it change's whole value dynamically,when parent is change */
+ height: 50%;
+ width: 50%;
+}
+
+
+/* it's size is relative to the viewport(screen) */
+div{
+ background-color: chocolate;
+ width: 50vw;
+ height: 50vh;
+}
+
+
+/* rem -> it is relative to the root element,root element(html) font size by default is 16px */
+/* li{
+ font-size: 2rem;
+} */
+
+
+/* em-> it is relative to the current parent */
+li{
+ font-size: 2em;
+}
+
+
+
+
+
+
