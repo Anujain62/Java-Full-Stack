@@ -1,0 +1,35 @@
+/* types of positions ->static, relative , absolute, */
+/* by default position of all elements is static */
+/* fix -> we can first change and then fix
+static -> we can not change the position
+relative -> here postion is changed with respect to initial position of the element
+absolute -> here position is changed with respect to perent position*/
+
+
+div{
+ height: 200px;
+ width: 200px;
+ display: inline-block;
+}
+div:nth-of-type(1){
+ background-color: red;
+}
+div:nth-of-type(2){
+ background-color: blue;
+ /* it does not wark because static can't change */
+ /* position: static;
+ top: 20px; */
+
+ /* position: relative;
+ top: 50px;
+ left: 20px; */
+
+ position: absolute;
+ top: 20px;
+ /* left: 30px; */
+ right: 40px;
+
+}
+div:nth-of-type(3){
+ background-color: green;
+}
