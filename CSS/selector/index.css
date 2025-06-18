@@ -1,0 +1,37 @@
+
+/* name selector */
+h3{
+ background-color: brown;
+}
+
+/* id selector */
+#one{
+ background-color: blue;
+}
+
+/* class selector */
+.two{
+ background-color: aqua;
+}
+
+/* attribute selector */
+a[href="http://google.com"]{
+ background-color: cadetblue;
+}
+
+/* start with ,end with selector */
+
+/* it matchs string string */
+a[href^="https"]{
+ background-color: antiquewhite;
+}
+
+/*it matchs last string */
+a[href$=".in"]{
+ background-color: chocolate;
+}
+
+/*it matchs whole string for finding assign string*/
+a[href*="mesho"]{
+ background-color: cornflowerblue;
+}
