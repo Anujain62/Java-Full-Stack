@@ -1,0 +1,37 @@
+body{
+ width: 100vw;
+ height: 100vh;
+}
+#parent{
+ height: 400px;
+ width: 80%;
+ border: 2px solid black;
+ margin: 100px auto;
+
+ display: flex;
+ /* flex-direction: column;*/       
+ /* flex-direction: column-reverse; */
+ /* flex-direction: row-reverse; */
+ /* justify-content: baseline; */          
+ /* justify-content: center; */
+ /* justify-content: end; */
+ /* justify-content: space-around; */
+ /* justify-content: space-between; */
+ /* justify-content: space-evenly; */
+ /* flex-wrap: wrap; */         /* it is used for flexibility,make the viewport flexible for any type of screen -> item shrink from top to bottom*/
+ /* flex-wrap: wrap-reverse; */         /* it is used for flexibility,make the viewport flexible for any type of screen -> item shrink from bottom to top*/
+
+}
+#parent div{
+ height: 100px;
+ width: 100px;
+}
+#one{
+ background-color: red;
+}
+#two{
+ background-color: blueviolet;
+}
+#three{
+ background-color: brown;
+}
