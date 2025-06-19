@@ -1,0 +1,35 @@
+#parent{
+ height: 40px;
+ background-color: black;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+}
+#one{
+ color: orangered;
+ margin-left: 15px;
+}
+#two{
+ color: white;
+ display: inline-block;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+#two p{
+ margin: 7px;
+}
+#three{
+ margin-right: 10px;
+}
+input{
+ color: white;
+ font-size: 18px;
+ background-color: orangered;
+ border-radius: 5px;
+}
+input:hover{
+ background-color: chocolate;
+ transition: 3s;
+}
