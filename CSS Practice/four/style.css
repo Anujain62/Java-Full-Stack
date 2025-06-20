@@ -1,0 +1,157 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+#navbar{
+ width: 100%;
+ height: 60px;
+ display: flex;
+ justify-content: center;
+ justify-items: center;
+ flex-direction: column;
+ align-items: center;
+ border-bottom: 2px solid rgb(228, 227, 227);
+ position: relative;
+}
+#navbar h1{
+ color: orangered;
+}
+#first{
+ height: 100px;
+ width: 100%;
+ border: 2px solid black;
+ margin-top: 7px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ background-color: grey;
+}
+#first img{
+ height: 60px;
+ width: 60px;
+ position: absolute;
+ top: 0;
+}
+#first-child{
+ display: flex;
+ margin-top: 60px;
+}
+#first-child h4{
+ margin-left: 25px;
+ color: white;
+}
+#second{
+ height: 460px;
+ width: 100%;
+ border-bottom: 2px solid black;
+ display: flex;
+ justify-content: space-between;
+ position: relative;
+ margin-bottom: 7px;
+}
+.sidebar{
+ height: 100%;
+ width: 10%;
+}
+#left-side{
+ background-color: rgb(248, 184, 110);
+}
+#right-side{
+ background-color: pink;
+}
+#mid{
+ height: 100%;
+ width: 80%;
+ display: flex;
+ position: relative;
+ box-shadow: 0 0 10px rgb(37, 37, 37);
+}
+#mid img{
+ height: 80%;
+ width: 65%;
+ position: absolute;
+ right: 0;
+ bottom: 0;
+}
+#text{
+ height: 100%;
+ width: 35%;
+ color: rgb(247, 125, 3);
+ margin-left: 60px;
+ position: relative;
+}
+#text h5{
+ margin-top: 50px;
+}
+#text h1{
+ margin-top: 5px;
+ font-size: 30px;
+}
+#delivery-text{
+ font-size: 75px;
+}
+#text-detail{
+ color: rgb(146, 145, 145);
+ margin-top: 5px;
+}
+#text input{
+ position: absolute;
+ bottom: 40px;
+ border-radius: 5px;
+ font-size: 20px;
+ color: white;
+ background-color: rgb(245, 187, 79);
+}
+#text input:hover{
+ background-color: chocolate;
+}
+#upper{
+ color: black;
+ position: absolute;
+ top: 20px;
+ left: 600px;
+}
+#upper h1{
+ font-size: 30px;
+}
+#upper input{
+ margin-left: 135px;
+ margin-top: 10px;
+ background-color: yellow;
+ border-radius: 5px;
+}
+#lower{
+ position: absolute;
+ bottom: 50px;
+ left: 350px;
+}
+.upperimage{
+ height: 150px;
+ width: 300px;
+ border-radius: 15px;
+ margin: 50px;
+ box-shadow: 0 0 100px rgba(0, 0, 0, 0.9);
+}
+.upperimage:hover{
+ height: 180px;
+ width: 330px;
+ margin-left: -5px;
+ transition: 3s;
+}
+#bottom{
+ height: 70px;
+ width: 100%;
+ position: absolute;
+ bottom: 0;
+ border-top: 2px solid rgb(228, 227, 227);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: orangered;
+ font-size: 25px;
+}
+
+
+
