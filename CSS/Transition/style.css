@@ -1,0 +1,53 @@
+/* transition timing function
+ease-in -> start slow and than 
+ease-in-out -> start slow and than fast and than slow
+ease-out -> start fast and than slow */
+
+
+#parent{
+ height: 600px;
+ border: 2px solid black;
+}
+.one{
+ height: 150px;
+ width: 150px;
+ transition: 3s;
+}
+#parent:hover .one{
+ margin-left: 1358px;
+ border-radius: 50%;
+}
+#one{
+ background-color: blueviolet;
+ transition-timing-function: ease-in;
+}
+#two{
+ background-color: chartreuse;
+ transition-timing-function: ease-out;
+}
+#three{
+ background-color: brown;
+ transition-timing-function: ease-in-out;
+}
+
+
+
+
+
+
+/* translate -> it is moves left to right for given positive value. */
+/* scale -> it is increase height or width according to given value */
+
+h2{
+ transition: 3s;
+ text-align: center;
+}
+h2:hover{
+ /* transform: rotateX(180deg); */
+ /* transform: rotateY(180deg); */
+ /* transform: rotateZ(180deg); */
+ /* transform: translate(300px); */
+ transform: scale(4);
+}
+
+
