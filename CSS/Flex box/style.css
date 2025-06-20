@@ -1,3 +1,7 @@
+/* flex-basis -> it is provides width , it is apply only child */
+/* flex-shrink -> shrink in according to the heighbours in property
+flex-grow -> to expand area,according to property */
+
 body{
  width: 100vw;
  height: 100vh;
@@ -7,19 +11,21 @@ body{
  width: 80%;
  border: 2px solid black;
  margin: 100px auto;
-
  display: flex;
+
  /* flex-direction: column;*/       
  /* flex-direction: column-reverse; */
  /* flex-direction: row-reverse; */
  /* justify-content: baseline; */          
- /* justify-content: center; */
+ /* justify-content: center; */       /*x-axis,main-axis,row-wise*/
  /* justify-content: end; */
  /* justify-content: space-around; */
  /* justify-content: space-between; */
  /* justify-content: space-evenly; */
  /* flex-wrap: wrap; */         /* it is used for flexibility,make the viewport flexible for any type of screen -> item shrink from top to bottom*/
  /* flex-wrap: wrap-reverse; */         /* it is used for flexibility,make the viewport flexible for any type of screen -> item shrink from bottom to top*/
+
+ /* align-items: center; */  /* y-axis,cross-axis,column-axis */
 
 }
 #parent div{
@@ -28,10 +34,17 @@ body{
 }
 #one{
  background-color: red;
+ flex-basis: 300px;
+ flex-shrink: 2;
 }
 #two{
  background-color: blueviolet;
+ flex-grow: 3;
 }
 #three{
  background-color: brown;
 }
+#four{
+ background-color: blue;
+}
+
