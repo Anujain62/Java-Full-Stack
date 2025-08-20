@@ -8,10 +8,10 @@ div{
  background-color: blue;
  height: 200px;
  width: 200px;
-  display: inline-block;   /*is is used all properties of inline and block */
- /* display: none; */
- /* visibility: hidden; */
-}
+ display: inline-block;   /*is is used all properties of inline and block */
+ /* display: none;  */            
+ /* visibility: hidden;              */
+} 
 span{
  background-color: brown;
  height: 200px;
