@@ -1,0 +1,3 @@
+javascript which is often konwn as JS, is a high level dynamic interpreted programming language.
+
+it allows client side scripting to create completely dynamic web applications and websites.

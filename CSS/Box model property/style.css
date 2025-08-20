@@ -3,9 +3,23 @@
 
 
 div{
- border: 5px solid pink;
+ border: 5px solid #af626f;
  height: 200px;
  width: 200px;
- padding: 20px;
- margin: 20px;
+
+
+ /* it apply in all directions */
+ /* padding: 80px; */
+
+ /* it apply like top right bottom left */
+ /* padding: 23px 56px 6px 89px; */
+
+ /* it apply like y(top/bottom) x(left/right) ,same padding for two sides */
+ padding: 100px 80px;
+
+ /* margin is used same as padding */
+ margin: 100px 100px; 
+
+ /* it is used for ,when we increse padding or margin so it does not change the width of the box*/
+ box-sizing: border-box;
 }

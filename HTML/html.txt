@@ -1,0 +1,11 @@
+HTML stands for hypertext markup language
+
+it is basically a standard markup language for giving a static skeleton to web application and websites.
+
+its a well standardized system
+
+ctrl + enter to jump into the new line
+
+unsplash source website is used for random image accessing
+
+alt  + up/down arrow for moving a particular part of code

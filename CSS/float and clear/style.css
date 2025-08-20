@@ -1,0 +1,40 @@
+*{
+ box-sizing: border-box;
+}
+.container{
+ width: 900px;
+ border: 3px solid purple;
+ margin: 40px auto;
+ background-color: antiquewhite;
+} 
+.item{
+ border: 3px solid gray;
+ margin: 12px 3px;
+ padding: 12px 3px;
+ background-color: rgb(248, 238, 238);
+}
+#fruit{
+ float: left;
+ width: 48%;
+}
+#computer{
+
+ /* the float property is utilized for positioning and formatting content within a web page */
+ float: right;
+ /* float: left; */
+ width: 48%;
+}
+#stationary{
+  /* clear is used for float box does not overlap the other box  */
+ /* clear: left; */
+ clear: both;
+ width: 100%; 
+}
+p,h3{
+ /* text-align: left;
+ text-align: right;
+ text-align: center; */
+ text-align: justify;
+}
+
+ 

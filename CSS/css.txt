@@ -1,0 +1,53 @@
+cascading style sheets which is known as CSS is a style sheet language that
+used to handle the presentation of web page containing HTML
+
+it makes our websites beautiful and modern looking
+
+CSS gives style to raw HTML
+
+CSS stands for Cascading style sheets
+
+CSS is used to give style to our web pages
+
+CSS is used to make websites responsive
+
+HTML is used to structure a website
+
+CSS takes responsibility of design
+
+CSS syntax -
+for one selector
+ selector { 
+  property : value ;
+ }
+for multiple selectors
+ selector1, selector2, ...., selectorn{
+  property : value;
+}
+
+Three ways to add css to the markup(html code) - 
+1) inline CSS : CSS is added to the elements directly using style attribute
+2) internal CSS : CSS is kept inside the head tags in <style> tags
+3) external CSS : CSS is kept separately inside a .css style sheet(new css file)
+
+CSS selector - CSS selectors are used to find the element  whose property will be set,
+selectors are used to target the html elements
+selectors makes it easy for us to easily target single/multiple html elements in the markup
+
+types of basic selectors-
+1) CSS element selector
+2) CSS id selector
+3) CSS class selector
+4) the CSS grouping selector 
+
+
+types of color selection - 
+1) color by name
+2)  color by rgb(red,green,blue) (as a function,value is 0 to 255)
+3) color by hex value
+
+
+for background image - here multiple functions are present for image 
+background-image: url('');
+background-repeat: ;
+background-position: ;

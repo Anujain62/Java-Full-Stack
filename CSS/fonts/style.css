@@ -1,0 +1,15 @@
+p{
+
+ /* font style */
+ /* this is called font stack */
+ font-family: 'Ubuntu' , 'franklin Gothic Medium' , 'Arial Narrow';
+
+ /* font size */
+ /* 1px = 1/96th of inch */
+ font-size: 33px;  
+ line-height: 1.3em;
+}
+span{
+ font-weight: bolder;
+ font-style: italic;
+}
