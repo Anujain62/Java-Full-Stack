@@ -1,0 +1,396 @@
+body{
+ margin: 0px;
+ padding: 0px;
+ width: 100vw;
+ height: 100vh;
+ background: url('front.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.header #left{
+ /* height: 90px; */
+ height: 6%;
+ width: 68%;
+ margin: 60px 12px;
+ display: inline-block;
+ position: absolute;
+ left: 10px;
+ position: fixed;
+ /* border: 4px solid green; */
+}
+.navbar li{
+ display: inline-block;
+}
+.navbar li a{
+ color: white;
+ text-decoration: none;
+ padding: 40px;
+ font-size: 85px;
+}
+.navbar li a:hover{
+ color: coral;
+ cursor: pointer;
+}
+#right{
+ height: 6%;
+ width: 28%;
+ margin: 80px 70px;
+ display: inline-block;
+ position: absolute;
+ right: 10px; 
+ /* border: 4px solid yellow; */
+}
+#right button{
+ position: absolute;
+ right: 40px;
+ font-size: 85px;
+ border-radius: 15px;
+ background-color: rgb(246, 32, 75);
+ color: white;
+}
+#right button:hover{
+ background-color: rgb(244, 104, 4);
+}
+#front-page #left{
+ margin-left: 30px;
+ position: absolute;
+ top: 1050px;
+ /* color: white; */
+
+}
+#front-page #left ul{
+ position: fixed;
+}
+#front-page #left li img{
+ height: 120px;
+ width: 120px;
+ border-radius: 50%;
+ margin: 40px;
+ list-style: none;
+}
+#front-page{
+ height: 65%;
+ position: relative;
+ top: 180px;
+ /* border: 8px solid goldenrod; */
+}
+#front-page #main{
+ position: absolute;
+ left: 700px;
+ top: 200px;
+ color: white;
+}
+#front-page #main span{
+ font-size: 300px;
+ font-weight: bolder;
+}
+#front-page #main p{
+ font-size: 90px;
+}
+#front-page #main .button{
+ height: 100px;
+ width: 430px;
+ font-size: 45px;
+ border-radius: 10px;
+}
+#front-page #main #button1{
+ color: white;
+ border: 2px solid rgb(246, 32, 75);
+ background-color: rgb(77, 76, 76);
+}
+#front-page #main #button2{
+ color: black;
+ background-color: rgb(246, 32, 75);
+ margin-left: 10px;
+}
+footer{
+ height: 16%;
+ width: 100%;
+ position: absolute;
+ bottom: 300px;
+ /* border: 2px solid green; */
+ background-color: rgb(228, 36, 18);
+}
+footer p{
+ color: white;
+ font-size: 90px;
+ margin: 10px 45px;
+ text-align: center;
+ box-sizing: border-box;
+ padding-top: 100px;
+}
+#second-page{
+ height: 1800px;
+ width: 100%;
+ color: white;
+ background-color: black;
+ /* border: 8px solid green; */
+ position: absolute;
+ top: 88%;
+ display: flex;
+ flex-direction: row;
+}
+#second-page img{
+ height: 100%;
+ width: 47%;
+ margin-left: 450px;
+}
+#second-page div{
+ height: 100%;
+ width: 50%;
+}
+#second-page div #heading{
+ height: 40%;
+ width: 80%;
+ /* border: 4px solid red; */
+ margin-left: 170px;
+ display: flex;
+ flex-direction: column;
+}
+#second-page #heading #first{
+ font-size: 70px;
+ padding-top: 300px;
+}
+#second-page #heading #second{
+ font-size: 200px;
+}
+#second-page #para{
+ width: 65%;
+ height: 55%;
+ margin-left: 170px;
+ /* border: 2px solid greenyellow; */
+}
+#second-page #para p{
+ font-size: 60px;
+}
+#third-page{
+ height: 2000px;
+ width: 100%;
+ background: url(dumbblell.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: absolute;
+ top: 150%;
+ color: white;
+ /* display: flex;
+ flex-direction: column;
+ text-align: center; */
+}
+#top{
+ width: 100%;
+ height: 30%;
+ /* border: 5px solid red; */
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ justify-content: center;
+}
+#top #heading{
+ display: flex;
+ flex-direction: column;
+}
+#top #heading span{
+ font-size: 90px;
+ color: white;
+ font-weight: bold;
+}
+#top #para{
+ width: 40%;
+ height: 30%;
+ margin-left: 1750px;
+ margin-top: 30px;
+ /* border: 5px solid yellow; */
+}
+#top #para p{
+ font-size: 55px;
+}
+#mid{
+ width: 100%;
+ height: 55%;
+ /* border: 5px solid green; */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+#mid .num .para:hover{
+ color: chocolate;
+}
+#mid .set{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-evenly;
+}
+#mid .up{
+ width: 100%;
+ height: 50%;
+ /* border: 5px solid yellow; */
+}
+#mid .up .num{
+ height: 100%;
+ width: 10%;
+ /* border: 5px solid coral; */
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ justify-content: center;
+}
+#mid .up h1{
+ font-size: 250px;
+ font-weight: bold;
+ color: rgb(135, 29, 29);
+}
+#mid .up .num .para{
+ font-size: 35px;
+ font-weight: bolder;
+ position: relative;
+ bottom: 350px;
+}
+#mid .down{
+ width: 100%;
+ height: 50%;
+ /* border: 5px solid yellow; */
+}
+#mid .down .num{
+ height: 100%;
+ width: 10%;
+ /* border: 5px solid coral; */
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ justify-content: center;
+}
+#mid .down h1{
+ font-size: 250px;
+ font-weight: bold;
+ color: rgb(135, 29, 29);
+}
+#mid .down .num .para{
+ font-size: 35px;
+ font-weight: bolder;
+ position: relative;
+ bottom: 350px;
+}
+#third-page .btn{
+ width: 100%;
+ height: 10%;
+ /* border: 5px solid red; */
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+#third-page button{
+ width: 500px;
+ height: 70%;
+ font-size: 50px;
+ color: black;
+ background-color: rgb(246, 32, 75);
+ border-radius: 10px;
+}
+#third-page button:hover{
+ cursor: pointer;
+ color: white;
+ background-color: darkslateblue;
+}
+#fourth-page{
+ height: 2000px;
+ width: 100%;
+ color: white;
+ background-color: black;
+ position: absolute;
+ top: 219%;
+ display: flex;
+ justify-content: space-evenly;
+ padding-top: 150px;
+}
+#fourth-page h1{
+ font-size: 110px;
+ font-weight: bolder;
+ margin-bottom: 110px;
+}
+#fourth-page #one h2{
+ font-size: 60px;
+}
+#fourth-page #one p{
+ font-size: 50px;
+}
+#fourth-page #logo ul{
+ margin-left: -65px;
+ display: flex;
+ flex-direction: row;
+ list-style: none;
+}
+#fourth-page #logo ul li img{
+ height: 120px;
+ width: 120px;
+ border-radius: 50%;
+ margin: 40px;
+}
+#fourth-page #two p{
+ font-size: 60px;
+}
+#fourth-page input{
+ height: 90px;
+ width: 1000px;
+ border: 3px solid white;
+ background-color: black;
+}
+#fourth-page textarea{
+ height: 200px;
+ width: 1000px;
+ border: 3px solid white;
+ background-color: black;
+}
+#fourth-page button{
+ float: right;
+ height: 110px;
+ width: 300px;
+ font-size: 50px;
+ color: black;
+ background-color: crimson;
+ margin-top: 35px;
+ border-radius: 3px;
+}
+#fourth-page button:hover{
+ color: white;
+ background-color: rgb(18, 45, 45);
+}
+#foot{
+ width: 100%;
+ height: 530px;
+ background-color: rgb(124, 50, 39);
+ position: absolute;
+ top: 293%;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ justify-content: center;
+}
+#foot h1{
+ font-size: 90px;
+ font-weight: bolder;
+}
+#foot p{
+ font-size: 60px;
+}
+#foot .app a img{
+ padding: 8px;
+ text-decoration: none;
+ margin: 15px;
+}
+#foot .app a .fstImg{
+ height: 105px;
+ width: 105px;
+ border-radius: 50%;
+}
+#foot .app a .secImg{
+ height: 90px;
+ width: 90px;
+ border-radius: 50%;
+}
+
+
+
+
+
+
