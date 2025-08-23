@@ -3,7 +3,6 @@ ease-in -> start slow and than
 ease-in-out -> start slow and than fast and than slow
 ease-out -> start fast and than slow */
 
-
 #parent{
  height: 600px;
  border: 2px solid black;
@@ -38,7 +37,6 @@ ease-out -> start fast and than slow */
 
 /* translate -> it is moves left to right for given positive value. */
 /* scale -> it is increase height or width according to given value */
-
 h2{
  transition: 3s;
  text-align: center;
@@ -49,6 +47,40 @@ h2:hover{
  /* transform: rotateZ(180deg); */
  /* transform: translate(300px); */
  transform: scale(4);
+}
+
+
+
+
+
+
+
+
+
+#box{
+ display: flex;
+ height: 200px;
+ width: 200px;
+ background-color: red;
+ justify-content: center;
+ align-items: center;
+ transition-property: background-color;
+ transition-duration: 3s;
+ /* transition-timing-function: ease-in-out; */
+ transition-delay: 2;
+
+ /* short-hand for transition */
+ /* transition: background-color duration timing-function delay; */
+ /* transition: background-color 1s ease-in-out 3s; */
+
+ transition: all 1s ease-in-out .3s;
+}
+#box:hover{
+ background-color: rgb(4, 69, 47);
+ height: 400px;
+ width: 400px;
+ border-radius: 100px;
+ font-size: 30px;
 }
 
 

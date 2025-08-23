@@ -1,0 +1,58 @@
+.container{
+ background-color: yellow;
+}
+.box{
+ background-color: green;
+ width: 250px;
+ height: 250px;
+ position: relative;
+ /* animation-name: harry1; */
+ animation-name: harry2;
+ animation-duration: 2s;
+ animation-iteration-count: infinite;
+
+ /* this is used for properties are apply and stop  */
+ /* animation-fill-mode: forwards; */
+
+ /* animation-timing-function: ease-in-out; */
+ /* animation-delay: 3s; */
+ /* animation-direction: alternate; */
+ /* animation-direction: reverse; */
+
+ /* shorthand for animation */
+ /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode;  */
+ /* animation: harry 5s ease-in 1s 12 backwards; */
+}
+@keyframes harry1{
+ from{
+  width: 200px;
+ }
+ to{
+  width: 1400px;
+ }
+}
+@keyframes harry2{
+ 0%{
+  top: 0px;
+  left: 0px;
+ }
+ 25%{
+  top: 250px;
+  left: 0px;
+ }
+ 75%{
+  top: 250px;
+  left: 250px;
+ }
+ 100%{
+  top: 0px;
+  left: 250px;
+ }
+}
+
+
+
+
+
+
+
