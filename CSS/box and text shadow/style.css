@@ -1,0 +1,46 @@
+ .container{
+  display: flex;
+ }
+ .card{
+  padding:  23px 12px;
+  margin: 23px 12px;
+  /* border: 2px solid red; */
+  background-color: aquamarine;
+
+  /* offset-x offset-y color */
+  /* for lower side */
+  /* box-shadow: 5px 7px green; */
+  /* for upper side */
+  /* box-shadow: -5px -7px green; */
+
+  /* x-axis , y-axis , blur-radius , color */
+  /* box-shadow: 7px 5px 10px green; */
+
+  /* x-axis , y-axis , blur-radius , spread-radius , color */
+  /* box-shadow: -7px -5px 10px 15px forestgreen; */
+
+  /* alpha is used for color showing like dark or light */
+  /* box-shadow: -7px -5px 10px 34px rgba(71, 172,172,0.2); */
+
+  /* shadow is moving inside the content */
+  /* box-shadow: inset 5px 10px green; */
+
+  /* multiple box shadows */
+  box-shadow: 3px 5px green, 8px 13px red;
+ }
+.card h2{
+
+ /* text-shadow: 2px 4px red; */
+
+ /* text-shadow: 2px 4px 4px red; */
+
+ text-shadow: -2px -4px 4px red;
+
+}
+
+
+
+
+
+
+

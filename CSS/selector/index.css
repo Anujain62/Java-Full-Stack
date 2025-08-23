@@ -1,37 +1,49 @@
-
 /* name selector */
-h3{
+h3 {
  background-color: brown;
 }
 
 /* id selector */
-#one{
+#one {
  background-color: blue;
 }
 
 /* class selector */
-.two{
+.two {
  background-color: aqua;
 }
 
 /* attribute selector */
-a[href="http://google.com"]{
+a[href="http://google.com"] {
  background-color: cadetblue;
 }
 
 /* start with ,end with selector */
 
-/* it matchs string string */
-a[href^="https"]{
+/* it matchs string to string */
+a[href^="https"] {
  background-color: antiquewhite;
 }
 
 /*it matchs last string */
-a[href$=".in"]{
+a[href$=".in"] {
  background-color: chocolate;
 }
 
 /*it matchs whole string for finding assign string*/
-a[href*="mesho"]{
+a[href*="mesho"] {
  background-color: cornflowerblue;
+}
+
+
+/* direct child selector */
+div>p {
+ background-color: yellowgreen;
+}
+
+
+/* selector for whose previous sibling is div */
+div+p {
+ color: white;
+ background-color: rgb(238, 126, 126);
 }

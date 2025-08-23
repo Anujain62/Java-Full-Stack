@@ -2,7 +2,7 @@
 /* flex-shrink -> shrink in according to the heighbours in property
 flex-grow -> to expand area,according to property */
 
-body{
+/* body{
  width: 100vw;
  height: 100vh;
 }
@@ -11,7 +11,7 @@ body{
  width: 80%;
  border: 2px solid black;
  margin: 100px auto;
- display: flex;
+ display: flex; */
 
  /* flex-direction: column;*/       
  /* flex-direction: column-reverse; */
@@ -24,10 +24,9 @@ body{
  /* justify-content: space-evenly; */
  /* flex-wrap: wrap; */         /* it is used for flexibility,make the viewport flexible for any type of screen -> item shrink from top to bottom*/
  /* flex-wrap: wrap-reverse; */         /* it is used for flexibility,make the viewport flexible for any type of screen -> item shrink from bottom to top*/
-
  /* align-items: center; */  /* y-axis,cross-axis,column-axis */
 
-}
+/* }
 #parent div{
  height: 100px;
  width: 100px;
@@ -46,5 +45,77 @@ body{
 }
 #four{
  background-color: blue;
+} */
+
+
+
+
+
+
+
+
+
+
+
+.container{
+ height: 544px;
+ width: 100%;
+ border: 2px solid black;
+
+ /* initialize the container as a flex box */
+ display: flex;
+
+ /* flex properties for a container */
+  
+ /*default value of flex-direction is row*/
+ /* flex-direction: row;     */
+ /* flex-direction: column;
+ flex-direction: row-reverse;
+ flex-direction: column-reverse; */
+
+ /* flex-wrap: wrap;
+ flex-wrap: wrap-reverse; */
+
+ /* short-hand for flex direction or wrap */
+ /* flex-flow: row-reverse wrap; */
 }
+.item{
+ width: 200px;
+ height: 200px;
+ background-color: tomato;
+ border: 2px solid green;
+ margin: 10px;
+ padding: 3px;
+}
+.item-1{
+/* flex properties for a flex item */
+/* higher the order, later it shows up in the container */
+ /* order: 2; */
+
+ /* flex-grow: 2; */
+
+ /* flex-shrink: 2; */
+
+}
+.item-2{
+ /* order: 5; */
+
+ /* flex-grow: 3; */
+
+ /* flex-shrink: 3; */
+
+ /* when flex direction is set to row , flex basis control width */
+ /* when flex direction is set to column , flex basis will control height */
+ flex-basis: 320px;
+}
+.item-3{
+ /* shorthand for flex:  grow, shrink, basis*/
+ /* flex: 2 2 344px; */
+
+
+ /* align-items: flex-start;
+ align-self: flex-end; */
+ align-self: center;
+}
+
 

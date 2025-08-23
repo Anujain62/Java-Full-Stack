@@ -51,3 +51,25 @@ for background image - here multiple functions are present for image
 background-image: url('');
 background-repeat: ;
 background-position: ;
+
+
+flexbox - 
+flexbox is a one dimensional layout method for laying out items in rows or columns.
+css flexbox is a better way to align items into a container.
+flexbox = flexible + box
+
+
+Responsive design - 
+endless new resolutions and devices are difficult to support separately for a web developer.
+responsive design is a way for a web developer to make his website adapt to all the devices and resolutions.
+responsive design is a necessity and not a luxury anymore!
+-> various ways to achieve responsive design-
+  1) setting up the viewport
+  2) use max-width/max-height
+  3) using css media queries
+  4) using rem/vh/vw units over pixels
+
+
+
+for selecting direct child of any tag,we use > sign -
+tag name > another tag name
