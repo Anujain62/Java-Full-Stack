@@ -1,10 +1,10 @@
 *{
  margin: 0px;
  padding: 0px;
+ scroll-behavior: smooth;
 }
 nav{
- width: 100%;
- /* height: 70px; */
+ width: 100vw;
  position: sticky;
  top: 0;
  left: 0;
@@ -13,6 +13,7 @@ nav{
  align-items: center;
  justify-content: space-around;
 }
+
 nav input{
  width: 240px;
  height: 30px;
@@ -28,7 +29,6 @@ nav input:hover{
 nav ul{
  height: 100%;
  display: flex;
- align-items: center;
  justify-content: center;
 }
 nav ul li{
@@ -40,6 +40,7 @@ nav .f-list li a{
  color: gray;
  padding: 35px;
 }
+
 nav .f-list li a:hover{
  color: rgb(99, 99, 248);
 }
@@ -54,7 +55,7 @@ nav .s-list img{
 
 #home{
  height: 500px;
- width: 100%;
+ width: 100vw;
  background: url(f-back.png) no-repeat center center/cover;
  display: flex;
  flex-direction: column;
@@ -63,7 +64,6 @@ nav .s-list img{
 }
 #home span{
  display: block;
- /* color: #420526; */
  color: white;
  font-size: 40px;
  margin-left: 470px;
@@ -72,11 +72,9 @@ nav .s-list img{
  font-size: 75px;
 }
 
-
 #travel-div{
  width: 100%;
  height: 300px;
- /* background-color: brown; */
  margin-top: 60px;
  display: flex;
  justify-content: center;
@@ -114,7 +112,6 @@ nav .s-list img{
 #travel-div .relax{
  background: url(s-div31.png) no-repeat center center/cover;
 }
-
 
 .logo{
  width: 100%;
@@ -166,13 +163,11 @@ nav .s-list img{
  margin: 90px;
 }
 
-
 .travel-block{
  width: 80%;
  height: 800px;
- margin: 60px 205px;
+ margin: 60px 10%;
  border: 1px solid gainsboro;
- /* background-color: blueviolet; */
 }
 .travel-block > img{
  width: 100%;
@@ -197,7 +192,6 @@ nav .s-list img{
 }
 .travel-block .lower h1{
  margin: 10px -2px;
- /* padding: 20px -3px; */
  color: rgb(93, 92, 92);
 }
 .travel-block .lower h1:hover{
@@ -227,11 +221,9 @@ nav .s-list img{
  width: 23px;
 }
 
-
 #sixth-div{
  height: 470px;
  width: 100%;
- background-color: aqua;
 }
 #sixth-div .head{
  width: 100%;
@@ -241,21 +233,15 @@ nav .s-list img{
 #sixth-div .head ul{
  margin-top: 20px;
  display: flex;
- /* align-items: center; */
  justify-content: space-evenly;
 }
 #sixth-div .head ul li{
  list-style: none;
 }
 #sixth-div .head ul li div{
- /* height: 100%;
- width: 30%; */
  margin-top: 17px;
- /* background-color: brown; */
  display: flex;
  font-size: 25px;
- /* align-items: center; */
- /* justify-content: center; */
 }
 #sixth-div .head ul li div img{
  padding-right: 15px;
@@ -265,30 +251,240 @@ nav .s-list img{
  width: 30px;
 }
 
-.img-info{
- height: 400px;
+#sixth-div .img-info{
+ height: 85%;
  width: 100%;
- display: flex;
-}
-.img-info div{
- width: 400px;
- height: 100%;
- display: flex;
- align-items: center;
+ display: grid;
+ grid-template-columns: repeat(6,1fr);
 }
 .img-info div p{
+ height: 100%;
+ color: white;
+ background-color: rgb(83, 83, 82);
  visibility: hidden;
+ display: flex;
+ align-items: center; 
+ padding-left: 60px;
 }
 .img-info .fst-img{
  background: url(f-back.png) no-repeat center center/cover;
 }
+.img-info .sec-img{
+ background: url(s-div1.png) no-repeat center center/cover;
+}
+.img-info .trd-img{
+ background: url(s-div21.png) no-repeat center center/cover;
+}
+.img-info .frth-img{
+ background: url(s-div31.png) no-repeat center center/cover; 
+}
+.img-info .fifth-img{
+ background: url(fifth-back.png) no-repeat center center/cover;  
+}
+.img-info .six-img{
+ background: url(food.png) no-repeat center center/cover;  
+}
+.img-info .seven-img{
+ background: url(ocean.png) no-repeat center center/cover;  
+}
+.img-info .eight-img{
+ background: url(house.png) no-repeat center center/cover;  
+}
+.img-info .img-div:hover p{
+ visibility: visible;
+ opacity: .9;
+}
 
+footer{
+ width: 100vw;
+ height: 350px;
+ background-color: rgb(143, 141, 141);
+ color: rgb(219, 219, 219);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+footer .left{
+ display: flex;
+}
+footer .left img{
+ width: 200px;
+ height: 200px;
+}
+footer .left .about{
+ height: 150px;
+ width: 250px;
+ margin: 15px;
+}
+footer .left .about h2{
+ font-size: 30px;
+ padding-bottom: 15px;
+}
+footer .left .about a{
+ display: block;
+ color: rgb(219, 219, 219);
+ padding-top: 15px;
+}
+footer .right{
+ display: flex;
+ flex-direction: column;
+}
+footer .right h1{
+ margin-top: -5px;
+ margin-bottom: 10px;
+}
+footer .right input{
+ height: 30px;
+ background-color: rgb(143, 141, 141);
+ border: 1px solid white;
+ padding: 5px;
+}
+footer .right input:hover{
+ border: 1px solid rgb(104, 104, 249);
+}
+footer .right .chek-box{
+ display: flex;
+ align-items: center;
+ padding: 5px;
+}
+footer .right .chek-box input{
+ border: 1px solid white;
+ margin-right: 5px;
+}
+footer .right .chek-box input:hover{
+ border: 1px solid rgb(104, 104, 249);
+}
+footer .right button{
+ width: 300px;
+ height: 30px;
+ color: white;
+ background-color: rgb(101, 101, 233);
+ border: none;
+}
+footer .right button:hover{
+ cursor: pointer;
+ background-color: rgb(158, 158, 230);
+}
 
+@media screen and (max-width:500px){
+ nav .f-list{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+ } 
+ footer .left img{
+  height: 100px;
+  width: 100px;
+ }
+ footer .left .about{
+  margin-top: -5px;
+ }
+}
 
+@media screen and (max-width:465){
+ #home{
+  width: 400px;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+}
 
+@media screen and (max-width:590px){
+ #trd-div img{
+  height: 65%;
+ }
+ #frth-div img{
+  height: 60%;
+ }
+ #fifth-div img{
+  height: 60%;
+ }
+}
 
+@media screen and (max-width:630px){
+ #travel-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ #travel-div .box{
+  margin: 10px;
+ } 
+ #travel-div .box span{
+  height: 40px;
+  width: 110px;
+  font-size: 25px;
+ }
+}
 
+@media  screen and (min-width:0px) and (max-width:750px) {
+ nav .f-list li a{
+  display: block;
+  font-size: 25px;
+  padding: 10px;
+ }
+}
 
+@media screen and (min-width:0px) and (max-width:880px){
+ .logo{
+  display: none;
+ }
+ #home span{
+  padding-right: 200px;
+ }
+ #sixth-div .img-info{
+  overflow-x: hidden;
+ } 
 
+ footer{
+  height: 450px;
+  flex-direction: column;
+ }
+ footer .right{
+  margin-top: 30px;
+ }
+}
+@media screen and (min-width:0px) and (max-width:1000px){
+ nav{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+ }
+ nav input{
+  margin: 20px 0px;
+ }
+ nav ul{
+  margin-top: -30px;
+ }
+ nav ul li a{
+  font-size: 40px;
+ }
+}
 
-
+@media screen and (min-width:0px) and (max-width:1280px){
+ nav input{
+  margin-left: 65px;
+ }
+ nav .f-list{
+  margin-left: 30px;
+ }
+ nav .s-list{
+  visibility: hidden;
+ }
+ #home span{
+  color: rgb(240, 54, 54);
+  font-size: 30px;
+ }
+ #sixth-div .img-info{
+ display: grid;
+ grid-template-columns: repeat(5,1fr);
+ }
+ #sixth-div .img-info .seven-img{
+  visibility: collapse;
+ }
+ footer{
+  margin-top: -130px;
+ }
+}
