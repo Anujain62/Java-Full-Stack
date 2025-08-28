@@ -1,3 +1,58 @@
 javascript which is often konwn as JS, is a high level dynamic interpreted programming language.
 
 it allows client side scripting to create completely dynamic web applications and websites.
+
+Js is a client side scripting language
+
+it is used to make page alive
+
+it is used to programmatically perform actions within the page
+
+when Js was created, it was initially called "live Script"
+But java was a very popular language at that time, ao it was decided that positioning a language as a "younger brother" of java would help
+
+Js can execute not only in the browser,but also on the server.
+
+We will use Js as a client as well as server side language.
+
+Js has evolved greatly as a language and is how use to perform wide variety of tasks.
+
+
+what cas in-browser Js do? - 
+1) Add new html and change exisiting html from DOM
+2) React to events(response from server, mouse movement, key press)
+3) Ajax requests
+4) get & set cookies & use local storage
+
+
+what can't in-browser Js do? -
+1) Read/write to & from computer hard disk.
+2) same origin policy
+
+
+what makes Js unique? -
+1) HTML/CSS support
+2) simple things/API 
+3) major moder browsers. (enabled by default) 
+
+
+Versions of Js -
+1) maintained by community
+2) ECMA (1997)
+  1st - 1997
+  2nd - 1998
+  3rd - 1999
+  ECMA - 2015
+       - 2016
+       - 2017
+       - 2018
+       - 2019
+ 
+       
+
+
+
+
+
+
+
