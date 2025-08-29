@@ -32,7 +32,7 @@
 // var y = new String("this");
 // console.log(y);
 
-// it gives error
+// it gives error if we file attech inside the head
 // document.getElementById('content').innerHTML = '<h3> this is an h3 heading <h3>'
 
 
