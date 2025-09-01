@@ -17,6 +17,19 @@ We will use Js as a client as well as server side language.
 
 Js has evolved greatly as a language and is how use to perform wide variety of tasks.
 
+Js is a case sansitive language.
+
+/*
+Code      Output
+\'      single quote
+\"      double quote   
+\\      backslash   
+\n      new line  
+\r      carriage return
+\t      tab
+\b      backspace
+\f      form feed
+*/
 
 what cas in-browser Js do? - 
 1) Add new html and change exisiting html from DOM
@@ -49,7 +62,8 @@ Versions of Js -
        - 2019
  
        
-
+push/pop -> it performs operation from the last index
+shift/unshift -> it performs operation from the first index
 
 
 
