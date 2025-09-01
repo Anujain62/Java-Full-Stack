@@ -1,0 +1,39 @@
+body{
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.container{
+ height: 500px;
+ width: 400px;
+ border: 2px solid grey;
+ box-shadow: 2px 2px 50px gray;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.container h1{
+ font-size: 40px;
+ font-weight: bolder;
+ margin-bottom: -7px;
+}
+.container .num{
+ color: rgb(39, 89, 238);
+}
+.container ul{
+ display: flex;
+}
+.container ul li{
+ list-style: none;
+ margin: 5px;
+}
+.container ul li button{
+ border-radius: 4px;
+}
+.container ul li button:hover{
+ color: rgb(194, 196, 198);
+ background-color: rgb(27, 26, 26);
+}
