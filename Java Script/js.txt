@@ -67,6 +67,9 @@ shift/unshift -> it performs operation from the first index
 
 
 
+Asynchronous system -> the three images are in different lines. They'll finish the race on their own place. Nobody stops for anybody.
+
+Synchronous system -> the three images are in one lines. They'll wait for finishing previous image race.
 
 
 
