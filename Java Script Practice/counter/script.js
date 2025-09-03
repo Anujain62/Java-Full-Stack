@@ -6,14 +6,19 @@ let count = 0;
 increment.addEventListener("click",function(){
  count++;
  num.textContent = count;
+ num.style.color = "blue";
 });
 decrement.addEventListener("click",function(){
  count--;
  num.textContent = count;
+ if(count<0){
+  num.style.color = "green";
+ }
 })
 reset.addEventListener("click",function(){
  count = 0;
  num.textContent = count;
+ num.style.color = "black";
 })
 
 
