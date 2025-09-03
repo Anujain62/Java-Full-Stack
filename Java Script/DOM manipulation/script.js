@@ -25,9 +25,57 @@
 
 
 
+
 // DOM manipulation
+
+
+// styling elements
+
 // const title = document.querySelector('#main-heading');
 // title.style.color = 'red';
 
-const listItem = document.querySelectorAll('.list-items');
-listItem.style.fontSize = "50px";
+// const listItem = document.querySelectorAll('.list-items');
+// for(i=0;i<listItem.length;i++){
+//  listItem[i].style.fontSize = '2rem';
+// }
+
+
+// creating elements
+const ul = document.querySelector('ul');
+const li = document.createElement('li');
+
+// adding element
+ul.append(li);
+// const firstListItem = document.querySelector('.list-items');
+// console.log(firstListItem.innerText);
+// console.log(firstListItem.textContent);
+// console.log(firstListItem.innerHTML);
+
+// modifying the text
+// li.innerText = "X-men";
+
+// modifying attribute & classes
+// li.setAttribute('id',"main-heading");
+// li.removeAttribute('id');
+// const title = document.querySelector('#main-heading');
+// console.log(title.getAttribute('id'));
+
+// li.classList.add('list-items');
+// console.log(li.classList.contains('list-items'));
+
+
+// remove elements
+// li.remove();
+
+
+
+
+
+
+
+
+
+
+
+
+
