@@ -48,8 +48,8 @@ body{
  margin-left: 300px;
  margin-top: 5px;
  font-size: 20px;
- border: 2px solid black;
- /* border-style: none; */
+ /* border: 2px solid black; */
+ border-style: none;
 }
 .back-container button:hover{
  background-color: brown;

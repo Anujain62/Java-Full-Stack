@@ -76,11 +76,13 @@ Synchronous system -> the three images are in one lines. They'll wait for finish
 
 what is the DOM(document object model) -> use it to manipulate content, style and structure.
 is one of the most unique and useful tools of Js.
+document -> it is predefine object, this is defines whole html file
+class selector -> it is return in array form,here directly property does not apply becuase it is returns array,when we wants to apply any property so here we need specify index number.
+id selector -> iy is return only one element
+query selector -> it is used for all like id,class etc
 
 
-
-
-
+innerText -> it gives content of inside the element
 
 
 

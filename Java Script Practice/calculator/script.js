@@ -29,15 +29,11 @@ numbers.forEach(button => {
   if( operator === ''){
    currNum += button.textContent;
    display.textContent = currNum;
-   // 
-   console.log(currNum);
   }
   else{
    currNum += button.textContent;
    let result = preNum + operator + currNum; 
    display.textContent = result;
-   // 
-   console.log(result);
   }
  });
 });
@@ -50,8 +46,6 @@ operators.forEach(button => {
    operator = button.textContent;
    let result = preNum + operator;
    display.textContent = result;
-   // 
-   console.log(result);
   } 
  });
 });

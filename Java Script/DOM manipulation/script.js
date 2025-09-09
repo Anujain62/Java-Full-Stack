@@ -23,11 +23,16 @@
 // console.log(container);
 
 
+// attribute gets and sets
+let a= document.querySelector("a");
+console.log(a.getAttribute("href"));
+a.setAttribute("href","http://flipkart.com");
+console.log(a); 
+
 
 
 
 // DOM manipulation
-
 
 // styling elements
 
@@ -39,13 +44,12 @@
 //  listItem[i].style.fontSize = '2rem';
 // }
 
-
 // creating elements
-const ul = document.querySelector('ul');
-const li = document.createElement('li');
+// const ul = document.querySelector('ul');
+// const li = document.createElement('li');
 
 // adding element
-ul.append(li);
+// ul.append(li);
 // const firstListItem = document.querySelector('.list-items');
 // console.log(firstListItem.innerText);
 // console.log(firstListItem.textContent);
@@ -63,15 +67,31 @@ ul.append(li);
 // li.classList.add('list-items');
 // console.log(li.classList.contains('list-items'));
 
-
 // remove elements
 // li.remove();
 
 
 
+// let ul =  document.querySelector('ul');
+// parent node traversal
+// console.log(ul);
+// console.log(ul.parentElement);
+// console.log(ul.parentElement.parentNode);
 
+// const html = document.documentElement;
+// console.log(html.parentNode);
+// console.log(html.parentElement);
+ 
 
-
+// child node traversal
+// console.log(ul);
+// console.log(ul.childNodes);
+// console.log(ul.firstChild);
+// console.log(ul.lastChild);
+// ul.childNodes[1].style.backgroundColor = 'blue';
+// console.log(ul.children);
+// console.log(ul.firstElementChild);
+// console.log(ul.lastElementChild);
 
 
 
