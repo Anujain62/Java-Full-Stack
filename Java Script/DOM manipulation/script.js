@@ -24,10 +24,10 @@
 
 
 // attribute gets and sets
-let a= document.querySelector("a");
-console.log(a.getAttribute("href"));
-a.setAttribute("href","http://flipkart.com");
-console.log(a); 
+// let a= document.querySelector("a");
+// console.log(a.getAttribute("href"));
+// a.setAttribute("href","http://flipkart.com");
+// console.log(a); 
 
 
 
@@ -72,7 +72,7 @@ console.log(a);
 
 
 
-// let ul =  document.querySelector('ul');
+let ul =  document.querySelector('ul');
 // parent node traversal
 // console.log(ul);
 // console.log(ul.parentElement);
@@ -93,8 +93,11 @@ console.log(a);
 // console.log(ul.firstElementChild);
 // console.log(ul.lastElementChild);
 
-
-
+// sibling node traversal
+// console.log(ul.previousSibling);
+// console.log(ul.previousElementSibling);
+// console.log(ul.nextSibling);
+// console.log(ul.nextElementSibling);
 
 
 
