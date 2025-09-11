@@ -61,17 +61,16 @@ signUpBtn.addEventListener("click",()=>{
 
 document.querySelector("#login").addEventListener("click",()=>{
 
- document.querySelector("#signInField").style.visibility = "hidden";
- signInForm.style.visibility = "hidden";
- document.querySelector("#login").style.visibility = "hidden";
- signUpBtn.style.visibility = "hidden";
-
  let email = formEle[2].value;
  let password = formEle[4].value;
  let currEmail = signInForm[0].value;
  let currPassword = signInForm[1].value;
 
  if(email === currEmail && password === currPassword){
+  document.querySelector("#signInField").style.visibility = "hidden";
+  signInForm.style.visibility = "hidden";
+  document.querySelector("#login").style.visibility = "hidden";
+  signUpBtn.style.visibility = "hidden";
   document.querySelector("#account").innerText = "You are login successfully";
  }
  else if(email !== currEmail && password === currPassword){

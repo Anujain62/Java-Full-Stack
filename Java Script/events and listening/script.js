@@ -33,6 +33,7 @@
 
 
 
+
 // 2)
 //syntax of event listener ->  element.addEventListener("click",function);
 // const buttonTwo = document.querySelector(".btn-2")
@@ -119,6 +120,7 @@
 
 
 
+// 4)
 // it allows users to append a SINGLE event listener to a parent element that adda it to all of its present AND future descendants that match a selector.
 
 // document.querySelector("#football").addEventListener("click",function(e){
@@ -157,6 +159,7 @@
 
 
 
+
 // 5)
 // way -> 1
 // function fun1(){
@@ -180,13 +183,31 @@
 
 
 
+
 // 6) onchange event
-let inp = document.querySelector("input");
-let h2 = document.querySelector("h2");
-inp.addEventListener("input",(e)=>{
- console.log(e.target.value);
- h2.innerText = e.target.value;
-})
+// let inp = document.querySelector("input");
+// let h2 = document.querySelector("h2");
+// inp.addEventListener("input",(e)=>{
+//  console.log(e.target.value);
+//  h2.innerText = e.target.value;
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
