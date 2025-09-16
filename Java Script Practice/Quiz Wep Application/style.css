@@ -1,0 +1,104 @@
+body{
+ width: 100vw;
+ height: 100vh;
+ margin: 0;
+ padding: 0;
+ background-color: rgb(252, 223, 180);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.login{
+ display: flex;
+ flex-direction: column;
+ margin-top: 50px;
+}
+.login h1{
+ font-size: 100px;
+ margin-bottom:-5px;
+ margin-left: 20px;
+}
+.login input{
+ width: 220px;
+ height: 30px;
+ margin: 5px;
+ padding-left: 10px;
+ border-radius: 5px;
+ border: 2px solid white;
+}
+.login input:hover{
+ border: 2px solid black;
+ background-color: beige;
+}
+.login #for-pass{
+ margin-left: 50px;
+ font-size: 20px;
+ color: dodgerblue;
+}
+.login button{
+ height: 30px;
+ margin: 5px;
+ border: 2px solid black;
+ border-radius: 5px;
+ background-color: rgb(244, 129, 91);
+ color: white;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.login p{
+ margin-left: 20px;
+}
+.login p a{
+ text-decoration: none;
+ color: dodgerblue;
+ font-size: 20px;
+}
+.logo{
+ margin-top: 20px;
+ margin-left: 30px;
+}
+.logo img{
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ margin: 10px;
+}
+
+
+/*.signup{
+ display: flex;
+ flex-direction: column;
+}
+.signup h1{
+ font-size: 100px;
+ margin-bottom:-5px;
+ margin-left: 20px;
+}
+.signup input{
+ width: 220px;
+ height: 30px;
+ margin: 5px;
+ padding-left: 10px;
+ border-radius: 5px;
+ border: 2px solid white;
+}
+.signup input:hover{
+ border: 2px solid black;
+ background-color: beige;
+}
+.signup button{
+ height: 30px;
+ width: 150px;
+ margin: 10px 50px;
+ border: 2px solid black;
+ border-radius: 5px;
+ background-color: rgb(244, 129, 91);
+ color: white;
+ box-shadow: rgb(114, 112, 112) 0px 5px 15px;
+}
+.signup button:hover{
+ color: black;
+ background-color: darkorange;
+}
+
+ */
