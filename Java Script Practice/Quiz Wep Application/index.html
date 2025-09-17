@@ -8,14 +8,14 @@
 </head>
 <body>
 
- <div class="login_container">
-  <div class="login">
+ <div class="container" id="login-container">
+  <div class="upper">
    <h1>Quiz</h1>
    <input type="email" placeholder="Enter your email">
    <input type="password" placeholder="Enter your password">
    <p id="for-pass">Forgot password?</p>
    <button id="login">Login</button>
-   <p>Don't have an account? <a href="#">Signup</a></p>
+   <p style="margin-left: 20px;">Don't have an account? <a href="#">Signup</a></p>
   </div>
   <div class="logo">
    <img src="facebook.png">
@@ -24,23 +24,38 @@
   </div>
  </div>
 
- <div class="signup" style="visibility: hidden;">
-  <h1>Quiz</h1>
-  <input type="text" placeholder="Enter your name">
-  <input type="email" placeholder="Enter your email">
-  <input type="password" placeholder="Enter your password">
-  <button>Create</button>
-  <hr>
-  <div class="lower">
-   <p>Or create account using secial media!</p>
-  <div class="logo" style="margin-top: -10px;">
+ <div class="container" id="for-pass-container" style="visibility: hidden;">
+  <div class="upper" style="margin-top: -70px;">
+   <h1>Quiz</h1>
+   <input type="email" placeholder="Enter your email">
+   <input type="password" placeholder="Enter your new password">
+   <input type="password" placeholder="Enter your conform password">
+   <button id="continue" style="margin-top: 20px;">Continue</button>
+  </div>
+  <div class="logo" style="margin-top: 40px;">
    <img src="facebook.png">
    <img src="google.png">
    <img src="linkdin.png">
   </div>
+ </div>
+
+ <div class="container" id="signup-container" style="visibility: hidden;">
+  <div class="upper">
+   <h1>Quiz</h1>
+   <input type="text" placeholder="Enter your name">
+   <input type="email" placeholder="Enter your email">
+   <input type="password" placeholder="Enter your password">
+   <button id="create">Create</button>
+   <p style="margin-left: -40px;">Or create account using secial media! <a href="">Login</a></p>
+  </div>
+  <div class="logo">
+   <img src="facebook.png">
+   <img src="google.png">
+   <img src="linkdin.png">
   </div>
  </div>
- 
+
+
  <script src="script.js"></script>
 </body>
 </html>
