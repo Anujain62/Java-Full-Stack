@@ -1,17 +1,161 @@
 body{
  width: 100vw;
  height: 100vh;
- background-color: darkorchid;
- display: flex;
- justify-content: center;
- align-items: center;
  margin: 0;
  padding: 0;
+ background-color: darkorchid;
+ /* display: flex;
+ justify-content: center;
+ align-items: center; */
 }
-.container{
+.phone{
+ width: 30%;
+ height: 70%;
+ border: 2px solid black;
+ border-radius: 10px;
+ box-shadow: 2px 2px 10px black, -2px -2px 10px black;
+ position: absolute;
+ top: 15%;
+ left: 35%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.phone .container{
+ width: 90%;
+ height: 80%;
+}
+.phone .container .upper h1{
+ font-size: 90px;
+ margin-top: -30px;
+ margin-left: 30%;
+ text-shadow: 3px 3px 5px black;
+}
+.phone .container .upper input{
+ width: 250px;
+ height: 40px;
+ padding-left: 20px;
+ margin-top: 10px;
+ margin-left: 25%;
+ border: 2px solid white;
+ border-radius: 5px;
+ font-size: 17px;
+ cursor: pointer;
+}
+.phone .container .upper input:hover{
+ border: 2px solid black;
+ background-color: blanchedalmond;
+ box-shadow: 1px 1px 3px black, -1px -1px 3px black;
+}
+.phone .container .upper #for-pass{
+ font-size: 25px;
+ margin-left: 35%;
+ cursor: pointer;
+}
+.phone .container .upper #for-pass:hover{
+ color: brown;
+}
+.phone .container .upper #for-pass:visited{
+ color: blue;
+}
+.phone .container button{
+ width: 200px;
+ height: 40px;
+ margin-left: 33%;
+ border-radius: 5px;
+ border: 2px solid black;
+ font-size: 20px;
+ background-color: rgb(255, 136, 0);
+ cursor: pointer;
+}
+.phone .container button:hover{
+ background-color: orangered;
+ color: white;
+ border: 2px solid rgb(106, 30, 2);
+ box-shadow: 2px 2px 5px black, -2px -2px 5px black;
+}
+.phone .container .upper p{
+ font-size: 25px;
+ margin-left: 20%;
+}
+.phone .container .upper p a{
+ text-decoration: none;
+ color: rgb(4, 67, 130);
+ font-size: 30px;
+}
+.phone .container .logo{
+ margin-left: 30%;
+ margin-top: 20px;
+}
+.phone .container .logo img{
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ padding: 10px;
+}
+
+
+.phone #level-container{
+ width: 90%;
+ height: 80%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ /* justify-content: center; */
+}
+/* .phone #level-container span{
+ width: 100%;
+ font-size: 30px;
+ display: block;
+} */
+.phone #level-container a{
+ font-size: 50px;
+ font-weight: bolder;
+ text-decoration: none;
+ margin-left: -400px;
+ margin-top: -60px;
+ color: black;
+}
+.phone #level-container .level{
+ width: 100%;
+ height: 25%;
+ /* border: 2px solid black; */
+ margin-top: 40px;
+}
+.phone #level-container .level span{
+ font-size: 30px;
+ display: block;
+ margin-left: 225px;
+}
+.phone #level-container .level button{
+ /* margin-left: -2px; */
+ margin-left: 150px;
+ cursor: pointer;
+}
+.phone #level-container #about{
+ margin-left: -20px;
+ margin-top: 20px;
+}
+
+.phone #about-container h1{
+ margin-top: -15px;
+}
+.phone #about-container #back{
+ font-size: 50px;
+ font-weight: bolder;
+ text-decoration: none;
+ position: absolute;
+ top: 5px;
+}
+
+
+
+
+
+
+/* .container{
  width: 80%;
  height: 70%;
- /* border: 2px solid black; */
  position: absolute;
  left: 200;
  display: flex;
@@ -75,7 +219,7 @@ body{
  height: 40px;
  border-radius: 50%;
  margin: 20px;
-}
+} */
 
 
 

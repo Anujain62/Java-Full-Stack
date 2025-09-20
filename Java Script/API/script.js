@@ -3,6 +3,7 @@
 
 
 
+
 let ul = document.querySelector("ul")
 fetch("https://jsonplaceholder.typicode.com/todos").then((data)=>{
  return data.json()
@@ -22,6 +23,17 @@ function show(res){
   ul.append(li,h4) 
  }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

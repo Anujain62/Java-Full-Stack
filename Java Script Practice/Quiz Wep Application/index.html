@@ -8,50 +8,104 @@
 </head>
 <body>
 
- <div class="container" id="login-container">
-  <div class="upper">
-   <h1>Quiz</h1>
-   <input type="email" placeholder="Enter your email">
-   <input type="password" placeholder="Enter your password">
-   <p id="for-pass">Forgot password?</p>
-   <button id="login">Login</button>
-   <p style="margin-left: 20px;">Don't have an account? <a href="#">Signup</a></p>
+ <div class="phone">
+  <div class="container" id="login-container">
+   <div class="upper">
+    <h1>Quiz</h1>
+    <input type="email" placeholder="Enter your email">
+    <input type="password" placeholder="Enter your password">
+    <p id="for-pass">Forgot password?</p>
+    <button id="login">Login</button>
+    <p>Don't have an account? <a href="#">Signup</a></p>
+   </div>
+   <div class="logo">
+    <img src="facebook.png">
+    <img src="google.png">
+    <img src="linkdin.png">
+   </div>
   </div>
-  <div class="logo">
-   <img src="facebook.png">
-   <img src="google.png">
-   <img src="linkdin.png">
+ </div> 
+
+ <div class="phone" style="visibility: hidden;">
+  <div class="container" id="for-pass-container">
+   <div class="upper">
+    <h1>Quiz</h1>
+    <input type="email" placeholder="Enter your email">
+    <input type="password" placeholder="Enter your new password">
+    <input type="password" placeholder="Enter your conform password">
+    <button id="continue" style="margin-top: 20px;">Continue</button>
+   </div>
+   <div class="logo">
+    <img src="facebook.png">
+    <img src="google.png">
+    <img src="linkdin.png">
+   </div>
   </div>
  </div>
 
- <div class="container" id="for-pass-container" style="visibility: hidden;">
-  <div class="upper" style="margin-top: -70px;">
-   <h1>Quiz</h1>
-   <input type="email" placeholder="Enter your email">
-   <input type="password" placeholder="Enter your new password">
-   <input type="password" placeholder="Enter your conform password">
-   <button id="continue" style="margin-top: 20px;">Continue</button>
-  </div>
-  <div class="logo" style="margin-top: 40px;">
-   <img src="facebook.png">
-   <img src="google.png">
-   <img src="linkdin.png">
+ <div class="phone" style="visibility: hidden;">
+  <div class="container" id="signup-container">
+   <div class="upper">
+    <h1>Quiz</h1>
+    <input type="text" placeholder="Enter your name">
+    <input type="email" placeholder="Enter your email">
+    <input type="password" placeholder="Enter your password">
+    <button id="create" style="margin-top: 20px;">Create</button>
+    <p style="margin-left: 25px;">Or create account using secial media! <a href="">Login</a></p>
+   </div>
+   <div class="logo">
+    <img src="facebook.png">
+    <img src="google.png">
+    <img src="linkdin.png">
+   </div>
   </div>
  </div>
 
- <div class="container" id="signup-container" style="visibility: hidden;">
-  <div class="upper">
-   <h1>Quiz</h1>
-   <input type="text" placeholder="Enter your name">
-   <input type="email" placeholder="Enter your email">
-   <input type="password" placeholder="Enter your password">
-   <button id="create">Create</button>
-   <p style="margin-left: -40px;">Or create account using secial media! <a href="">Login</a></p>
+ <div class="phone" style="visibility: hidden;">
+  <div class="container" id="play-container">
+   <h1 style="font-size: 90px; text-shadow: 2px 2px 10px black; margin-left: 28%; margin-top: -20px;">QUIZ</h1>
+   <h1 style="color: gainsboro; margin-left: 37%; margin-top: 150px;">Let's Play!</h1>
+   <p style="font-size: 20px; margin-left: 37%;">Play now & Win</p>
+   <button id="play" style="margin-top: 30px;">Play Now</button>
+   <button class="about" style="margin-top: 20px;">About</button>
   </div>
-  <div class="logo">
-   <img src="facebook.png">
-   <img src="google.png">
-   <img src="linkdin.png">
+ </div>
+
+ <div class="phone" style="visibility: hidden;">
+  <div class="container" id="level-container">
+   <a id="back" href="javascript:history.back()">&larr;</a>
+   <button style="margin-left: -15px;">Level Up</button>
+   <div class="level">
+    <span>Easy</span>
+    <button>Start Quiz</button>
+   </div>
+   <div class="level">
+    <span>Normal</span>
+    <button>Start Quiz</button>
+   </div>
+   <div class="level">
+    <span>Hard</span>
+    <button>Start Quiz</button>
+   </div>
+   <button class="about" id="about" style="margin-top: 10px;">About</button>
+  </div>
+ </div> 
+
+ <div class="phone" style="visibility: hidden;">
+  <div class="container" id="about-container">
+   <a onclick="back_play_page()" id="back" href="javascript:history.back()">&larr;</a>
+   <h1>About This Quiz App</h1>
+   <p>Welcome to our Quiz Web Application – a fun and interactive platform designed to test your knowledge across various topics such as science, technology, general knowledge, and more!</p>
+   <p>Whether you're a student looking to sharpen your skills, a teacher creating quizzes for your class, or just someone who enjoys trivia, this app is made for you.</p>
+   <p>You can choose from multiple categories, answer timed multiple-choice questions, and instantly see your score. At the end of each quiz, you'll get detailed feedback to help you learn and improve.</p>
+   <p>This application is built using modern web technologies like HTML, CSS, JavaScript, and a backend powered by Node.js and MongoDB (or insert your stack).</p>
+   <p>We’re constantly updating the app with new questions and features like leaderboards, multiplayer quizzes, and performance tracking.</p>
+   <h2>Thanks for visiting, and happy quizzing! 🎉</h2>
+   <div class="logo">
+    <img src="facebook.png">
+    <img src="google.png">
+    <img src="linkdin.png">
+   </div>
   </div>
  </div>
 
