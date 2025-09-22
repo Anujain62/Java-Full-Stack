@@ -94,6 +94,13 @@ body{
  padding: 10px;
 }
 
+.phone #play-container a{
+ color: black;
+ font-size: 30px;
+ font-weight: bolder;
+ text-decoration: none;
+ margin-top: -540px;
+}
 
 .phone #level-container{
  width: 90%;
@@ -129,7 +136,7 @@ body{
 }
 .phone #level-container .level button{
  /* margin-left: -2px; */
- margin-left: 150px;
+ margin-left: 170px;
  cursor: pointer;
 }
 .phone #level-container #about{
@@ -149,81 +156,100 @@ body{
 }
 
 
-
-
-
-
-/* .container{
- width: 80%;
- height: 70%;
- position: absolute;
- left: 200;
+.phone .quiz-choice{
+ height: 80%;
+ width: 90%;
  display: flex;
  flex-direction: column;
  align-items: center;
- justify-content: center;
 }
-.container .upper{
+.phone .quiz-choice .name{
+ /* width: 50%; */
+ height: 20%;
+ /* border: 2px solid black; */
  display: flex;
  flex-direction: column;
-}
-.container .upper h1{
- font-size: 100px;
- text-shadow: 2px 2px 10px black;
- margin-bottom: 5px;
- margin-left: 30px;
-}
-.container .upper input{
- width: 250px;
- height: 30px;
- margin: 10px;
- padding-left: 10px;
- border-radius: 5px;
+ justify-content: center;
  border: 2px solid white;
- box-shadow: 2px 2px 9px rgb(76, 74, 74);
- cursor: pointer;
+ padding: 30px;
+ background-color: white;
+ border-radius: 50%;
+ box-shadow: 2px 2px 8px black;
+ margin-top: -40px;
 }
-.container .upper input:hover{
- border: 2px solid black;
- background-color: antiquewhite;
-}
-.container .upper p{
- font-size: 20px;
- color: rgb(1, 46, 48);
-}
-.container .upper #for-pass{
- margin-left: 70px;
-}
-.container .upper button{
- height: 30px;
- width: 200px;
- border-radius: 10px;
- border: 2px solid orangered;
- background-color: rgb(255, 176, 148);
- margin-left: 40px;
- box-shadow: 2px 2px 10px black;
-}
-.container .upper button:hover{
- background-color: orangered;
- color: white;
- border: 2px solid black;
- cursor: pointer;
-}
-.container .upper p a{
- text-decoration: none;
- font-size: 25px;
- color: rgb(252, 171, 18);
-}
-.container .logo img{
+.phone .quiz-choice .name span{
+ display: inline-block;
+ line-height: 50px;             /* Matches height for vertical centering */
+ text-align: center;  
  width: 40px;
  height: 40px;
+ border: 1px solid black;
+ border-radius: 3px;
+ font-size: 20px;
+ font-weight: bolder;
+ box-shadow: 2px 2px 4px black;
+}
+.phone .quiz-choice .name .up span{
+ margin-bottom: 5px;
+}
+
+.phone .quiz-choice .option{
+ width: 80%;
+ height: 20%;
+}
+.phone .quiz-choice a{
+ color: black;
+ font-size: 30px;
+ font-weight: bolder;
+ margin-left: -500px;
+ margin-top: -20px;
+ text-decoration: none
+}
+.phone .quiz-choice .option .options{
+ /* width: 80%; */
+ /* height: 20%; */
+ background-color: white;
+ margin-top: 35px;
+ border-radius: 20px;
+ box-shadow: 2px 2px 10px black;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ color: blueviolet;
+ font-weight: bolder;
+}
+.phone .quiz-choice .options img{
+ width: 100px;
+ height: 100px;
  border-radius: 50%;
- margin: 20px;
-} */
+}
 
+.phone #quizs{
+ width: 90%;
+ height: 90%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-between;
+}
 
+.phone #quizs h1{
+ color: white;
+}
+.phone #quizs ul li{
+ font-size: 15px;
+ color: white;
+}
 
+.phone #quizs a{
+ color: black;
+ font-size: 30px;
+ font-weight: bolder;
+ text-decoration: none;
+ margin-top: -20px;
+ margin-left: -500px;
+}
 
-
-
-
+.phone #quizs button{
+ margin-right: -30px;
+}

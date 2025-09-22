@@ -63,6 +63,7 @@
 
  <div class="phone" style="visibility: hidden;">
   <div class="container" id="play-container">
+   <a onclick="back_play_page()" id="back" href="javascript:history.back()">&larr;</a>
    <h1 style="font-size: 90px; text-shadow: 2px 2px 10px black; margin-left: 28%; margin-top: -20px;">QUIZ</h1>
    <h1 style="color: gainsboro; margin-left: 37%; margin-top: 150px;">Let's Play!</h1>
    <p style="font-size: 20px; margin-left: 37%;">Play now & Win</p>
@@ -73,7 +74,7 @@
 
  <div class="phone" style="visibility: hidden;">
   <div class="container" id="level-container">
-   <a id="back" href="javascript:history.back()">&larr;</a>
+   <a onclick="back_play_page()" id="back" href="javascript:history.back()">&larr;</a>
    <button style="margin-left: -15px;">Level Up</button>
    <div class="level">
     <span>Easy</span>
@@ -109,6 +110,43 @@
   </div>
  </div>
 
+ <div class="phone" style="visibility: hidden;">
+  <div class="container quiz-choice" id="quiz-choice">
+   <a onclick="back_play_page()" id="back" href="javascript:history.back()">&larr;</a>
+   <div class="name">
+    <div class="up">
+     <span>Q</span>
+     <span>U</span>
+    </div>
+    <div class="down">
+     <span>I</span>
+     <span>Z</span>
+    </div>
+   </div>
+   <div class="option">
+    <div class="cpp options">
+     <img src="c++.png">
+     <h1>C++</h1>
+    </div>
+    <div class="java options">
+     <img src="java.png">
+     <h1>Java</h1>
+    </div>
+    <div class="python options">
+     <img src="python.png">
+     <h1>Python</h1>
+    </div>
+   </div>
+  </div>
+ </div>
+
+ <div class="phone" style="visibility: hidden;">
+  <div class="container" id="quizs">
+   <a onclick="back_play_page()" id="back" href="javascript:history.back()">&larr;</a>
+   <div class="question"></div>
+   <button id="next">Next</button>
+  </div>
+ </div>
 
  <script src="script.js"></script>
 </body>

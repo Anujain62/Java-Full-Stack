@@ -120,7 +120,7 @@
 
 
 
-// 4)
+// 4) event delegation
 // it allows users to append a SINGLE event listener to a parent element that adda it to all of its present AND future descendants that match a selector.
 
 // document.querySelector("#football").addEventListener("click",function(e){
@@ -138,6 +138,7 @@
 //  }
 // })
 
+// whole list access at a time.
 // document.querySelector("#sports").addEventListener("click",function(e){
 //  console.log(e.target.getAttribute('id') + ' is clicked');
     // e.target it gives the tag name
