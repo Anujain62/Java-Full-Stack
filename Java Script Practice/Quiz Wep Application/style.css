@@ -4,9 +4,6 @@ body{
  margin: 0;
  padding: 0;
  background-color: darkorchid;
- /* display: flex;
- justify-content: center;
- align-items: center; */
 }
 .phone{
  width: 30%;
@@ -108,13 +105,7 @@ body{
  display: flex;
  flex-direction: column;
  align-items: center;
- /* justify-content: center; */
 }
-/* .phone #level-container span{
- width: 100%;
- font-size: 30px;
- display: block;
-} */
 .phone #level-container a{
  font-size: 50px;
  font-weight: bolder;
@@ -126,7 +117,6 @@ body{
 .phone #level-container .level{
  width: 100%;
  height: 25%;
- /* border: 2px solid black; */
  margin-top: 40px;
 }
 .phone #level-container .level span{
@@ -135,7 +125,6 @@ body{
  margin-left: 225px;
 }
 .phone #level-container .level button{
- /* margin-left: -2px; */
  margin-left: 170px;
  cursor: pointer;
 }
@@ -155,7 +144,6 @@ body{
  top: 5px;
 }
 
-
 .phone .quiz-choice{
  height: 80%;
  width: 90%;
@@ -164,9 +152,7 @@ body{
  align-items: center;
 }
 .phone .quiz-choice .name{
- /* width: 50%; */
  height: 20%;
- /* border: 2px solid black; */
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -206,8 +192,6 @@ body{
  text-decoration: none
 }
 .phone .quiz-choice .option .options{
- /* width: 80%; */
- /* height: 20%; */
  background-color: white;
  margin-top: 35px;
  border-radius: 20px;
