@@ -1,10 +1,10 @@
-import React from "react"
-import { useState } from "react"
-import Counter from "./counter"
-import Clock from "./Clock"
+// import React from "react"
+// import { useState } from "react"
 
 
-// import new Counter file 
+
+// import Counter file 
+// import Counter from "./Counter"
 // function App(){
 //   return (
 //     <div>
@@ -12,16 +12,46 @@ import Clock from "./Clock"
 //     </div>
 //   )
 // }
+  
+  
+
+// // import navbar file
+// import Navbar from "./User-Components/Navbar"
+// const App = () =>{
+//  return(
+//   // after importing the file we can change the value of any tag inside the imported file, after fetching the props inside the imported file.
+//   // we can pass anything like string, link etc.
+//   // <Navbar title="TextUtils" aboutText="About Text"/>
+
+//   // if we define props as isRequired so here compalsary passed this variable
+//   <Navbar title="TextUtils"/>
+
+//   // here does not pass any props so this used default prop values.
+//   // <Navbar/>
+//  );
+// }
 
 
-// import Clock file
-function App(){
-  return(
-    <div>
-      <Clock/>
-    </div>
-  )
-}
+
+
+// re-writing of app jsx file
+// let name = "Anu"
+// const App = () =>{
+//   return(
+//     <>
+//      <nav>
+//       <li>Home</li>
+//       <li>About</li>
+//       <li>Contact</li>
+//      </nav>
+//      <div className="container">
+//       <h1>Hello {name}</h1>
+//       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+//      </div>
+//     </>
+//   )
+// }
+
 
 
 
@@ -41,6 +71,7 @@ function App(){
 
 
 
+
 // for background color changing only once
 // const App = () =>{
 //   let [state,SetState] = useState("red")
@@ -54,6 +85,7 @@ function App(){
 //     </div>
 //   )
 // } 
+
 
 
 
@@ -75,9 +107,6 @@ function App(){
 //     </div>
 //   )
 // } 
-
-
-
 
 
 

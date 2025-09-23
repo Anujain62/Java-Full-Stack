@@ -1,0 +1,53 @@
+ctrl+F = direct replacement of whole same type of keyword.
+we can use directly bootstrap inside react.
+
+
+when we create new file outside the src folder so this is run inside the terminal.
+steps for exicution -> 1) find the path 2) node .\file_name with extention .mjs
+
+
+inside the app.jsx defined arrow function is returns only one tag.
+
+
+
+export by default, who is contains arrow function,means where whole code is define. it is used end of the code.
+syntax -> export default variable_name
+
+
+
+function based component -> These are simply JavaScript functions that return JSX (the UI).
+it is static type, it means it does not shows any changes.
+Key Features : 
+Simpler syntax.
+Use React Hooks (useState, useEffect, etc.) to manage state and lifecycle.
+Recommended for modern React development.
+
+class based component -> These are ES6 classes that extend React.Component.
+it is dynamic type, it means when we change anythink inside the code so this shows wffects inside the user interface.
+Key Features :
+Have access to lifecycle methods (componentDidMount, componentDidUpdate, etc.).
+Use this.state and this.setState() for state management.
+More verbose syntax.
+Still supported, but not preferred for new projects.
+
+
+
+JSX -> JSX (JavaScript XML) is a syntax extension used in React that lets you write HTML-like code inside JavaScript.
+It makes writing UI components easier and more readable.
+key Points : 
+JSX looks like HTML, but it's actually JavaScript.
+You can embed JavaScript in JSX using {}.
+You must use className instead of class, and htmlFor instead of for.
+JSX must return one root element.
+why use JSX :
+JSX looks like HTML, but it's actually JavaScript.
+You can embed JavaScript in JSX using {}.
+You must use className instead of class, and htmlFor instead of for.
+JSX must return one root element.
+
+
+
+
+
+
+

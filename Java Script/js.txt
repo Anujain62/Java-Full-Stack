@@ -82,7 +82,11 @@ id selector -> iy is return only one element
 query selector -> it is used for all like id,class etc
 
 
-innerText -> it gives content of inside the element
+innerText -> it gives content of inside the element.
+
+
+
+this keyword -> it is undefined inside the normal funtion, where inside the arrow function or globally write this keyword is returns window object.
 
 
 
