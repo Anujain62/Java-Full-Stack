@@ -9,6 +9,8 @@ steps for exicution -> 1) find the path 2) node .\file_name with extention .mjs
 inside the app.jsx defined arrow function is returns only one tag.
 
 
+when we do any changes so it refres whole code by default.
+
 
 export by default, who is contains arrow function,means where whole code is define. it is used end of the code.
 syntax -> export default variable_name

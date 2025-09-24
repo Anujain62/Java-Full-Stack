@@ -3,32 +3,71 @@
 
 
 
+
 // import Counter file 
 // import Counter from "./Counter"
 // function App(){
-//   return (
-//     <div>
-//       <Counter/>
-//     </div>
-//   )
-// }
+ //   return (
+  //     <div>
+  //       <Counter/>
+  //     </div>
+  //   )
+  // }
+
+
+
+// import use effect file
+import { Effect } from "./Effect"
+function App(){
+ return(
+  <div>
+   <Effect/>
+  </div>
+ )
+}
   
+
+
+
+// // import arr-map file
+// import Arr_Map from "./Arr_Map"
+// function App(){
+//  return(
+//   <div>
+//    <Arr_Map/>
+//   </div>
+//  )
+// }
+
   
 
 // // import navbar file
 // import Navbar from "./User-Components/Navbar"
 // const App = () =>{
+ //  return(
+  //   // after importing the file we can change the value of any tag inside the imported file, after fetching the props inside the imported file.
+  //   // we can pass anything like string, link etc.
+  //   // <Navbar title="TextUtils" aboutText="About Text"/>
+  
+  //   // if we define props as isRequired so here compalsary passed this variable
+  //   <Navbar title="TextUtils"/>
+  
+  //   // here does not pass any props so this used default prop values.
+  //   // <Navbar/>
+  //  );
+  // }
+  
+  
+  
+  
+// // import textform file
+// import TextForm from "./U-state-and-event/TextForm"
+// function App(){
 //  return(
-//   // after importing the file we can change the value of any tag inside the imported file, after fetching the props inside the imported file.
-//   // we can pass anything like string, link etc.
-//   // <Navbar title="TextUtils" aboutText="About Text"/>
-
-//   // if we define props as isRequired so here compalsary passed this variable
-//   <Navbar title="TextUtils"/>
-
-//   // here does not pass any props so this used default prop values.
-//   // <Navbar/>
-//  );
+//   <div className="container">
+//    <TextForm heading="Enter the text to analyze below"/>
+//   </div>
+//  )
 // }
 
 
