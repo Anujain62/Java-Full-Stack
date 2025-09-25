@@ -84,14 +84,11 @@ import { Recipe_Api } from "./Recipe_Api"
 
 
 // import recipe_api.jsx file
-// const App = () =>{
-//  return(
-//   <Recipe_Api/>
-//  )
-// }
-
-
-
+const App = () =>{
+ return(
+  <Recipe_Api/>
+ )
+}
 
 
 
