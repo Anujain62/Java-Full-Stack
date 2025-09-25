@@ -1,6 +1,8 @@
 // import React from "react"
 // import { useState } from "react"
 
+import { Recipe_Api } from "./Recipe_Api"
+
 
 
 
@@ -16,15 +18,15 @@
 
 
 
-// import use effect file
-import { Effect } from "./Effect"
-function App(){
- return(
-  <div>
-   <Effect/>
-  </div>
- )
-}
+// // import use effect file
+// import { Effect } from "./Effect"
+// function App(){
+//  return(
+//   <div>
+//    <Effect/>
+//   </div>
+//  )
+// }
   
 
 
@@ -41,34 +43,56 @@ function App(){
 
   
 
-// // import navbar file
+// import navbar file
 // import Navbar from "./User-Components/Navbar"
 // const App = () =>{
- //  return(
-  //   // after importing the file we can change the value of any tag inside the imported file, after fetching the props inside the imported file.
-  //   // we can pass anything like string, link etc.
-  //   // <Navbar title="TextUtils" aboutText="About Text"/>
+//   return(
+//     // after importing the file we can change the value of any tag inside the imported file, after fetching the props inside the imported file.
+//     // we can pass anything like string, link etc.
+//     // <Navbar title="TextUtils" aboutText="About Text"/>
   
-  //   // if we define props as isRequired so here compalsary passed this variable
-  //   <Navbar title="TextUtils"/>
+//     // if we define props as isRequired so here compalsary passed this variable
+//     <Navbar title="TextUtils"/>
   
-  //   // here does not pass any props so this used default prop values.
-  //   // <Navbar/>
-  //  );
-  // }
-  
-  
+//     // here does not pass any props so this used default prop values.
+//     // <Navbar/>
+//    );
+//   }
   
   
-// // import textform file
-// import TextForm from "./U-state-and-event/TextForm"
+  
+  
+// import textform file
+// import Navbar from "./User-Components/Navbar"
+// import TextForm from "./User-Components/TextForm"
 // function App(){
 //  return(
 //   <div className="container">
+//    <Navbar title="TextUtils"/>
 //    <TextForm heading="Enter the text to analyze below"/>
 //   </div>
 //  )
 // }
+
+
+
+
+
+
+
+
+
+
+// import recipe_api.jsx file
+// const App = () =>{
+//  return(
+//   <Recipe_Api/>
+//  )
+// }
+
+
+
+
 
 
 

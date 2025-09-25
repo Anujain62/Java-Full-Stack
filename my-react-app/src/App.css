@@ -1,7 +1,6 @@
 
 /* for file effect.jsx */
-
-#container{
+/* #container{
   background-color: antiquewhite;
   display: flex;
   justify-content: center;
@@ -11,8 +10,118 @@
   font-weight: bolder;
   margin-right: 10px;
 }
-
 #text{
   background-color: purple;
   color: white;
+} */
+
+
+
+
+
+
+/* for file navbar.jsx */
+/* #container{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
 }
+h5{
+  margin-top: -0.001px;
+} */
+
+/* for file textform.jsx */
+/* .main-div .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-div .container .form-control{
+  width: 400px;
+}
+.main-div .container button{
+  padding: 5px;
+  margin: 5px;
+}
+.main-div .container p{
+  margin-top: -5px;
+} */
+
+
+
+
+/* for file Recipe_api.jsx */
+
+#container{
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: rgb(225, 224, 224);
+}
+#container #left{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#container .btns .btn{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#container #right{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#container .btn button{
+  width: 100px;
+  height: 25px;
+  margin-left: 10px;
+  border: 2px solid white;
+  background-color: orange;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px white, -2px -2px 5px white;
+}
+#container .btn button:hover{
+  background-color: orangered;
+  color: white;
+}
+#container #cardItem{
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+#container #cardItem span{
+  display: inline-block;
+}
+
+#card{
+  width: 200px;
+  height: 380px;
+  display: inline-block;
+  margin: 20px;
+}
+#card img{
+  width: 200px;
+  height: 200px;
+  box-shadow: 2px 2px 5px black, -2px -2px 5px black;
+  border-radius: 5px;
+}
+#card button{
+  background-color: rgb(105, 105, 251);
+  width: 80px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+}
+#card button:hover{
+  background-color: blue;
+  color: white;
+}
+
+

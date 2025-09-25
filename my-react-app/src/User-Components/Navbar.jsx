@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import '../App.css'
 
 
 // props is nothing but this is called properties.
@@ -7,7 +8,7 @@ import PropTypes from 'prop-types'
 // we can define default props.
 export default function Navbar({title= 'set title here',aboutText= 'about text here'}){
  return(
-  <div>
+  <div id='container'>
    <a>{title}</a>
    <h5>{aboutText}</h5>
    Hello I am a navbar
