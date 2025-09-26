@@ -81,11 +81,23 @@
 
 
 // import recipe_api.jsx file
-import { Recipe_Api } from "./Recipe_Api"
-const App = () =>{
- return(
-  <Recipe_Api/>
- )
+// import { Recipe_Api } from "./Recipe_Api"
+// const App = () =>{
+//  return(
+//   <Recipe_Api/>
+//  )
+// }
+
+
+
+
+
+// import movie_api.jsx file
+import {Movie_Api} from "./Movie_Api"
+const App = ()=>{
+  return(
+    <Movie_Api/>
+  )
 }
 
 

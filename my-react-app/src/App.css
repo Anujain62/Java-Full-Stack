@@ -16,10 +16,6 @@
 } */
 
 
-
-
-
-
 /* for file navbar.jsx */
 /* #container{
   display: flex;
@@ -29,6 +25,7 @@
 h5{
   margin-top: -0.001px;
 } */
+
 
 /* for file textform.jsx */
 /* .main-div .container{
@@ -48,11 +45,8 @@ h5{
 } */
 
 
-
-
 /* for file Recipe_api.jsx */
-
-#container{
+/* #container{
   width: 100vw;
   height: 100px;
   display: flex;
@@ -159,4 +153,4 @@ h5{
 #item{
   display: flex;
   justify-content: center;
-}
+} */
