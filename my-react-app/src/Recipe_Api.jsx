@@ -5,6 +5,7 @@ export const Recipe_Api = () => {
  let [apiData,SetData] = useState([])
  let [meal,SetMeal] = useState([])
  let [count,setCount] = useState(0)
+ let [item,SetItem] = useState("")
 
  useEffect(()=>{
   fetch("https://dummyjson.com/recipes").then((res)=>{
@@ -66,6 +67,27 @@ export const Recipe_Api = () => {
   }
  }
 
+ function searchInp(item){
+  document.getElementById("inp").value = ""
+  if(item=="Dinner"){
+    SetItem("")
+    showMeal(item)
+  }else if(item=="Lunch"){
+    SetItem("")
+    showMeal(item)
+  }else if(item=="Beverage"){
+    SetItem("")
+    showMeal(item)
+  }else if(item=="Breakfast"){
+    SetItem("")
+    showMeal(item)
+  }
+  else{
+    SetItem("Not Fount")
+    showMeal("All")
+  }
+ }
+
   return (
    <div>
     <div id='container'>
@@ -95,6 +117,12 @@ export const Recipe_Api = () => {
      </div>
 
     </div>
+
+    <div id='input-field'>
+      <input id='inp' placeholder='Enter your choice'></input>
+      <button onClick={()=>searchInp(document.getElementById("inp").value)}>Search</button>
+    </div>
+      <h1 id='item'>{item}</h1>
    
     {
      // second element is points to index number.

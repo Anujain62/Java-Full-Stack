@@ -1,9 +1,6 @@
 // import React from "react"
 // import { useState } from "react"
 
-import { Recipe_Api } from "./Recipe_Api"
-
-
 
 
 // import Counter file 
@@ -84,6 +81,7 @@ import { Recipe_Api } from "./Recipe_Api"
 
 
 // import recipe_api.jsx file
+import { Recipe_Api } from "./Recipe_Api"
 const App = () =>{
  return(
   <Recipe_Api/>
