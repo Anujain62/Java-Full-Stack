@@ -92,13 +92,13 @@
 
 
 
-// import movie_api.jsx file
-import {Movie_Api} from "./Movie_Api"
-const App = ()=>{
-  return(
-    <Movie_Api/>
-  )
-}
+// // import movie_api.jsx file
+// import {Movie_Api} from "./Movie_Api"
+// const App = ()=>{
+//   return(
+//     <Movie_Api/>
+//   )
+// }
 
 
 
