@@ -3,6 +3,21 @@
 
 
 
+
+import {Navbar_file} from './class based components/Navbar_file'    
+import News from './class based components/news'
+function App(){
+  return(
+    <div>
+      <Navbar_file/>
+      <News pageSize={5}/>
+    </div>
+  )
+}
+
+
+
+
 // import Counter file 
 // import Counter from "./Counter"
 // function App(){
@@ -70,11 +85,6 @@
 //   </div>
 //  )
 // }
-
-
-
-
-
 
 
 
