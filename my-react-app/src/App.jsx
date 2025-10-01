@@ -4,13 +4,14 @@
 
 
 
+// import file inside of class-based-component folder
 import {Navbar_file} from './class based components/Navbar_file'    
 import News from './class based components/news'
 function App(){
   return(
     <div>
       <Navbar_file/>
-      <News pageSize={5}/>
+      <News pageSize={5} country="in" category="technology"/>
     </div>
   )
 }
