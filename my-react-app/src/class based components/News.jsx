@@ -29,7 +29,8 @@ export class News extends Component {
 
   // it runs after the renden
   async componentDidMount(){
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=3a79ec96030e4890aedcee302ece0ce3&pageSize=${this.props.pageSize}`
+    // let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=3a79ec96030e4890aedcee302ece0ce3&pageSize=${this.props.pageSize}`
+    let url = ` https://newsapi.org/v2/top-headlines/sources?country=${this.props.country}apiKey=3a79ec96030e4890aedcee302ece0ce3&pageSize=${this.props.pageSize}`
     let data = await fetch(url);
     let parsedData = await data.json();
     console.log(parsedData.articles)
@@ -37,7 +38,7 @@ export class News extends Component {
   }
 
   handlePreClick = async () => {
-    let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=3a79ec96030e4890aedcee302ece0ce3&pageSize=${this.props.pageSize}`
+    let url = ` https://newsapi.org/v2/top-headlines/sources?country=${this.props.country}apiKey=3a79ec96030e4890aedcee302ece0ce3&pageSize=${this.props.pageSize}`
     let data = await fetch(url);
     let parsedData = await data.json();
     this.setState({
@@ -49,7 +50,7 @@ export class News extends Component {
 
   handleNextClick = async () => {
     if (!(this.state.page + 1 >= Math.ceil(this.state.totalResults / this.props.pageSize))) {
-      let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=3a79ec96030e4890aedcee302ece0ce3&pageSize=${this.props.pageSize}`
+      let url = ` https://newsapi.org/v2/top-headlines/sources?country=${this.props.country}apiKey=3a79ec96030e4890aedcee302ece0ce3&pageSize=${this.props.pageSize}`
       this.setState({ loading: true })
       let data = await fetch(url);
       let parsedData = await data.json();

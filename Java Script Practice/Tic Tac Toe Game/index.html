@@ -19,8 +19,8 @@
    <input type="email" placeholder="Enter your email">
    <input type="password" placeholder="Enter your password">
    <p id="for-pass">Forgot Password</p>
-   <button>Login</button>
-   <button>SignUp</button>
+   <button id="login">Login</button>
+   <button id="signup">SignUp</button>
    <div class="logo">
     <img src="facebook.png">
     <img src="linkdin.png">
@@ -34,7 +34,7 @@
    <input type="email" placeholder="Enter your email">
    <input type="password" placeholder="Enter new password">
    <input type="password" placeholder="Enter conform password">
-   <button>Continue</button>
+   <button id="continue">Continue</button>
    <div class="logo">
     <img src="facebook.png">
     <img src="linkdin.png">
@@ -44,12 +44,12 @@
  </div>
 
  <div class="phone" style="visibility: hidden;">
-  <div class="container signup-container">
+  <div class="container signup-container" id="signup-container">
    <input type="text" placeholder="Enter your name">
    <input type="email" placeholder="Enter your email">
    <input type="number" placeholder="Enter your number">
    <input type="password" placeholder="Create password">
-   <button>Create</button>
+   <button id="create">Create</button>
    <div class="logo">
     <img src="facebook.png">
     <img src="linkdin.png">
@@ -60,27 +60,22 @@
 
  <div class="phone" style="visibility: hidden;">
   <div class="container" id="options">
-
     <div class="inner-opt">
       <div class="up opt-contain">
        <div class="computer inside-opt">
-        <!-- <img src="facebook.png"> -->
-        <p>Computer</p>
+        <p id="computer-btn">Computer</p>
        </div>
        <div class="partner inside-opt">
-        <!-- <img src="facebook.png"> -->
-        <p>Partner</p>
+        <p id="partner-btn">Partner</p>
        </div>
       </div>
     
       <div class="down opt-contain">
        <div class="online inside-opt">
-        <!-- <img src="facebook.png"> -->
-        <p>Online</p>
+        <p id="online-btn">Online</p>
        </div>
        <div class="friend inside-opt">
-        <!-- <img src="facebook.png"> -->
-        <p>Invite Friend</p>
+        <p id="friend-btn">Invite Friend</p>
        </div>
       </div>   
     </div>
@@ -94,125 +89,128 @@
  </div>
 
  <div class="phone" style="visibility: hidden;">
-  <div class="container " id="board-container">
+  <div class="container board-container" id="computer">
    <div class="title">
     <div class="left">
-     <h2>Computer</h2>
-     <h2>0</h2>
+     <h1>Computer</h1>
+     <h2 class="score1">0</h2>
     </div>
     <div class="right">
-     <h2>Anu jain</h2>
-     <h2>0</h2>
+     <h1>Anu jain</h1>
+     <h2 class="score2">0</h2>
     </div>
    </div>
-   <div class="board">
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
+   <div class="computer-board board">
+    <p class="one"></p>
+    <p class="two"></p>
+    <p class="three"></p>
+    <p class="four"></p>
+    <p class="five"></p>
+    <p class="six"></p>
+    <p class="seven"></p>
+    <p class="eight"></p>
+    <p class="nine"></p>
    </div>
    <div class="bottom">
-    <button>Exit</button>
-    <button>Play Again</button>
+    <button class="exit">Exit</button>
+    <button class="again">Play Again</button>
    </div>
   </div>
  </div>
 
-
  <div class="phone" style="visibility: hidden;">
-  <div class="container " id="board-container">
+  <div class="container board-container" id="partner">
    <div class="title">
     <div class="left">
      <h1>Player 1</h1>
-     <h2>0</h2>
+     <h2 class="score1">0</h2>
     </div>
     <div class="right">
      <h1>Player 2</h1>
-     <h2>0</h2>
+     <h2 class="score2">0</h2>
     </div>
    </div>
-   <div class="board">
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
+   <div class="partner-board board">
+    <p class="one"></p>
+    <p class="two"></p>
+    <p class="three"></p>
+    <p class="four"></p>
+    <p class="five"></p>
+    <p class="six"></p>
+    <p class="seven"></p>
+    <p class="eight"></p>
+    <p class="nine"></p>
    </div>
    <div class="bottom">
-    <button>Exit</button>
-    <button>Play Again</button>
+    <button class="exit">Exit</button>
+    <button class="again">Play Again</button>
    </div>
   </div>
  </div>
 
  <div class="phone" style="visibility: hidden;">
-
-  <div class="container" id="board-container">
+  <div class="container board-container" id="online">
    <div class="title">
     <div class="left">
      <h1>Guest</h1>
-     <h2>0</h2>
+     <h2 class="score1">0</h2>
     </div>
     <div class="right">
      <h1>You</h1>
-     <h2>0</h2>
+     <h2 class="score2">0</h2>
     </div>
    </div>
-   <div class="board">
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
+   <div class="online-board board">
+    <p class="one"></p>
+    <p class="two"></p>
+    <p class="three"></p>
+    <p class="four"></p>
+    <p class="five"></p>
+    <p class="six"></p>
+    <p class="seven"></p>
+    <p class="eight"></p>
+    <p class="nine"></p>
    </div>
    <div class="bottom">
-    <button>Exit</button>
-    <button>Play Again</button>
+    <button class="exit">Exit</button>
+    <button class="again">Play Again</button>
    </div>
   </div>
  </div>
 
  <div class="phone" style="visibility: hidden">
-
-  <div class="container" id="board-container">
+  <div class="container board-container" id="friend">
    <div class="title">
     <div class="left">
      <h1>Friend</h1>
-     <h2>0</h2>
+     <h2 class="score1">0</h2>
     </div>
     <div class="right">
      <h1>You</h1>
-     <h2>0</h2>
+     <h2 class="score2">0</h2>
     </div>
    </div>
-   <div class="board">
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
+   <div class="friend-board board">
+    <p class="one"></p>
+    <p class="two"></p>
+    <p class="three"></p>
+    <p class="four"></p>
+    <p class="five"></p>
+    <p class="six"></p>
+    <p class="seven"></p>
+    <p class="eight"></p>
+    <p class="nine"></p>
    </div>
    <div class="bottom">
-    <button>Exit</button>
-    <button>Play Again</button>
+    <button class="exit">Exit</button>
+    <button class="again">Play Again</button>
    </div>
+  </div>
+ </div>
+
+ <div class="phone" style="visibility: hidden;">
+  <div class="container" id="win">
+    
   </div>
  </div>
  
