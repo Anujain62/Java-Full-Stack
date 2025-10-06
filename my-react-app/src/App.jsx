@@ -4,17 +4,17 @@
 
 
 
-// import file inside of class-based-component folder
-import {Navbar_file} from './class based components/Navbar_file'    
-import News from './class based components/news'
-function App(){
-  return(
-    <div>
-      <Navbar_file/>
-      <News pageSize={5} country="in" category="technology"/>
-    </div>
-  )
-}
+// // import file inside of class-based-component folder
+// import {Navbar_file} from './class based components/Navbar_file'    
+// import News from './class based components/news'
+// function App(){
+//   return(
+//     <div>
+//       <Navbar_file/>
+//       <News pageSize={5} country="in" category="technology"/>
+//     </div>
+//   )
+// }
 
 
 
@@ -188,6 +188,64 @@ function App(){
 //     </div>
 //   )
 // } 
+
+
+
+
+
+
+// how to handle input field
+import React, { useState } from 'react'
+const App = () => {
+  let [input,setInput] = useState("")
+  let [value,SetValue] = useState([])
+
+  function inputFun(e){
+    setInput(e.target.value)
+  }
+
+  function AddDataFun(){
+    document.querySelector("input").value = ""
+    // spread operator -> it is combines previous and current values.
+    SetValue([...value,input])
+  }
+  function deleteFun(idx){
+    let tempArr = value.filter((a)=>{
+      return value[idx]!=a
+    })
+    SetValue([tempArr])
+  }
+  // function EditFun(idx){
+  //   let temp = value.filter((a)=>{
+  //     return value[idx]==a
+  //   })
+  //   let tempArr = value.filter((a)=>{
+  //     return value[idx]!=a
+  //   })
+  //   SetValue(tempArr)
+  //   temp = 
+  //   console.log(temp)
+  // }
+
+  return (
+    <div>
+      <input onChange={inputFun}/>
+      <button onClick={AddDataFun}>click</button>
+      {
+        value.map((a,idx)=>{
+          return(<>
+          <h2>{a}</h2>
+          <button onClick={()=>deleteFun(idx)}>Delete</button>
+          {/* <button onClick={()=>EditFun(idx)}>Edit</button> */}
+         </>)
+        })
+      }
+    </div>
+  )
+}
+
+
+
 
 
 
