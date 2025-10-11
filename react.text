@@ -50,6 +50,25 @@ JSX must return one root element.
 
 
 
+router ->
 
 
 
+
+useState -> useState used for minimal projects. it gets one parameter.
+useReducer -> useReducer used for complex projects. it gets two parameter.it takes first function name nad other is value.
+
+
+
+
+props -> 
+main.jsx --> app.jsx --> home.jsx 
+props shares data from parent to child by default,and its vise-versa does not work.
+data shares from main to app and app to home, but main does not shares direct any data from main to home.
+home does not shares any data from home to app/main. 
+
+
+
+
+
+qusetions -> what is usestate, useEffect, props

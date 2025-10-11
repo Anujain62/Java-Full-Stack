@@ -1,5 +1,75 @@
-// import React from "react"
-// import { useState } from "react"
+import React from 'react'
+import Home from './Props folder/Home.jsx'
+
+const App = () => {
+  let user = "hello"
+  return (
+    <div>
+      <Home data={user}/>
+    </div>
+  )
+}
+
+
+
+
+
+
+
+// for folder use-reducer
+// import React from 'react'
+// import Counter from './Use Reducer/Counter.jsx';
+// import ColorFlipper from './Use Reducer/ColorFlipper.jsx';
+// const App = () => {
+//   return (
+//     <div>
+//       {/* <Counter/> */}
+//       <ColorFlipper/>
+//     </div>
+//   )
+// }
+
+
+
+
+
+// for detch product file of product listing folder
+// import React from 'react'
+// import Fetch_Product from './prodect listing/Fetch_Product'
+// const App = () => {
+//   return (
+//     <div>
+//       <Fetch_Product/>
+//     </div>
+//   )
+// }
+
+
+
+
+
+
+// for router folder
+// import React from 'react'
+// import SignUp from './router folder/SignUp'
+// import Login from './router folder/Login'
+// import { Route, Routes } from 'react-router-dom'
+// import {Recipe_Api} from './Recipe_Api'
+// // local host + port number + / + page_name
+// // http://localhost:5173/
+// const App = () => {
+//   return (
+//     <div>
+//       <Routes>
+//         <Route   path='/'    element={<Recipe_Api/>}/>
+//         <Route   path='/signup'    element={<SignUp/>}/>
+//         <Route   path='/login'    element={<Login/>}/>
+//       </Routes>
+//     </div>
+//   )
+// }
+
+
 
 
 
@@ -115,6 +185,65 @@
 
 
 
+
+// // how to handle input field
+// import React, { useState } from 'react'
+// const App = () => {
+//   let [input,setInput] = useState("")
+//   let [value,SetValue] = useState([])
+
+//   function inputFun(e){
+//     setInput(e.target.value)
+//   }
+
+//   function AddDataFun(){
+//     document.querySelector("input").value = ""
+//     // spread operator -> it is combines previous and current values.
+//     SetValue([...value,input])
+//   }
+//   function deleteFun(idx){
+//     let tempArr = value.filter((a)=>{
+//       return value[idx]!=a
+//     })
+//     SetValue([tempArr])
+//   }
+//   return (
+//     <div>
+//       <input onChange={inputFun}/>
+//       <button onClick={AddDataFun}>click</button>
+//       {
+//         value.map((a,idx)=>{
+//           return(<>
+//           <h2>{a}</h2>
+//           <button onClick={()=>deleteFun(idx)}>Delete</button>
+//          </>)
+//         })
+//       }
+//     </div>
+//   )
+// }
+
+
+
+
+
+
+// // import HandleMultipleInputField.jsx file
+// import {HandleMultipleInputField} from "./HandleMultipleInputField"
+// const App = () =>{
+//   return(
+//     <div>
+//       <HandleMultipleInputField/>
+//     </div>
+//   )
+// }
+
+
+
+
+
+
+
 // re-writing of app jsx file
 // let name = "Anu"
 // const App = () =>{
@@ -188,62 +317,6 @@
 //     </div>
 //   )
 // } 
-
-
-
-
-
-
-// how to handle input field
-import React, { useState } from 'react'
-const App = () => {
-  let [input,setInput] = useState("")
-  let [value,SetValue] = useState([])
-
-  function inputFun(e){
-    setInput(e.target.value)
-  }
-
-  function AddDataFun(){
-    document.querySelector("input").value = ""
-    // spread operator -> it is combines previous and current values.
-    SetValue([...value,input])
-  }
-  function deleteFun(idx){
-    let tempArr = value.filter((a)=>{
-      return value[idx]!=a
-    })
-    SetValue([tempArr])
-  }
-  // function EditFun(idx){
-  //   let temp = value.filter((a)=>{
-  //     return value[idx]==a
-  //   })
-  //   let tempArr = value.filter((a)=>{
-  //     return value[idx]!=a
-  //   })
-  //   SetValue(tempArr)
-  //   temp = 
-  //   console.log(temp)
-  // }
-
-  return (
-    <div>
-      <input onChange={inputFun}/>
-      <button onClick={AddDataFun}>click</button>
-      {
-        value.map((a,idx)=>{
-          return(<>
-          <h2>{a}</h2>
-          <button onClick={()=>deleteFun(idx)}>Delete</button>
-          {/* <button onClick={()=>EditFun(idx)}>Edit</button> */}
-         </>)
-        })
-      }
-    </div>
-  )
-}
-
 
 
 

@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import './App.css'
 export const Recipe_Api = () => {
  let [apiData,SetData] = useState([])
@@ -108,6 +109,14 @@ export const Recipe_Api = () => {
        <button onClick={()=>showMeal("Lunch")}>Lunch</button>
        <button onClick={()=>showMeal("Beverage")}>Beverage</button>
        <button onClick={()=>showMeal("Breakfast")}>Breakfast</button>
+
+       {/* for router folder */}
+       {/* <Link  to={'/login'}>  
+         <button>Login</button>
+       </Link>
+       <Link  to={'/signup'}>  
+         <button>SignUp</button>
+       </Link> */}
       </div>
      </div>
 
