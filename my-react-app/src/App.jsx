@@ -1,15 +1,43 @@
-import React from 'react'
-import Home from './Props folder/Home.jsx'
+
+// for props folder
+import React, { useState } from 'react'
+import Home, { Recipe_Api } from './Props folder/Recipe_Api.jsx'
+import Cart from './Props folder/Cart.jsx'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const App = () => {
-  let user = "hello"
-  return (
-    <div>
-      <Home data={user}/>
-    </div>
-  )
-}
 
+  let [apiData,SetData] = useState([])
+  let [meal,SetMeal] = useState([])
+  let [cart, SetCart] = useState([])
+  console.log(cart)
+
+  return (
+      <Routes>
+        <Route path='/' element={<Recipe_Api apiData={apiData} SetData={SetData} meal={meal} SetMeal={SetMeal} cart={cart} SetCart={SetCart} />}/>
+        <Route path='/Cart' element={<Cart cart={cart} SetCart={SetCart} />}/>
+      </Routes>
+  )
+}   
+
+
+
+
+
+
+
+
+// for home file of props folder
+// import React from 'react'
+// import Home from './Props folder/Home.jsx'
+// const App = ({a}) => {
+//   let user = "hello"
+//   return (
+//     <div>
+//       <Home data={user} a={a}/>
+//     </div>
+//   )
+// }
 
 
 

@@ -6,7 +6,9 @@ import {BrowserRouter}  from 'react-router-dom'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>   
-    <App />
+    {/* for props file of props folder */}
+    {/* <App a="hii"/> */}
+    <App/>
     </BrowserRouter>
   </StrictMode>
 )
