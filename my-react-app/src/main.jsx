@@ -19,10 +19,15 @@ createRoot(document.getElementById('root')).render(
     
    {/* for use context folder */}
    {/*data flow ->  context.jsx - main.jsx - use in any file */}
-   <Context.Provider value={"Hello"}>
+   {/* 1) for home.jsx file */}
+   {/* <Context.Provider value={"Hello"}>
      <App/>
-   </Context.Provider>
-
+   </Context.Provider> */}
+ 
+    {/* 2) */}
+    <Context>
+      <App/>
+    </Context>
 
   </StrictMode>
 )
