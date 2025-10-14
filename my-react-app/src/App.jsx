@@ -1,24 +1,45 @@
 
-// for props folder
-import React, { useState } from 'react'
-import Home, { Recipe_Api } from './Props folder/Recipe_Api.jsx'
-import Cart from './Props folder/Cart.jsx'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// for context file of use context folder
+import React from 'react'
+import Home from './use context/Home'
 
 const App = () => {
-
-  let [apiData,SetData] = useState([])
-  let [meal,SetMeal] = useState([])
-  let [cart, SetCart] = useState([])
-  console.log(cart)
-
   return (
-      <Routes>
-        <Route path='/' element={<Recipe_Api apiData={apiData} SetData={SetData} meal={meal} SetMeal={SetMeal} cart={cart} SetCart={SetCart} />}/>
-        <Route path='/Cart' element={<Cart cart={cart} SetCart={SetCart} />}/>
-      </Routes>
+    <div>
+      <Home/>
+    </div>
   )
-}   
+}
+
+
+
+
+
+
+
+
+
+
+// // for props folder
+// import React, { useState } from 'react'
+// import Home, { Recipe_Api } from './Props folder/Recipe_Api.jsx'
+// import Cart from './Props folder/Cart.jsx'
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// const App = () => {
+
+//   let [apiData,SetData] = useState([])
+//   let [meal,SetMeal] = useState([])
+//   let [cart, SetCart] = useState([])
+//   console.log(cart)
+
+//   return (
+//       <Routes>
+//         <Route path='/' element={<Recipe_Api apiData={apiData} SetData={SetData} meal={meal} SetMeal={SetMeal} cart={cart} SetCart={SetCart} />}/>
+//         <Route path='/Cart' element={<Cart cart={cart} SetCart={SetCart} />}/>
+//       </Routes>
+//   )
+// }   
 
 
 
