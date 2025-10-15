@@ -5,7 +5,7 @@
 
 
 
-import { createContext, useEffect, useReducer } from "react";
+import { createContext, useEffect, useReducer, useState } from "react";
 let Context =  createContext()
 export default Context
 
@@ -17,27 +17,30 @@ const ContectProvider = ({children}) =>{
   cart: []
  }
 
- function reducer(apiData,action){
+ function reducer(state,action){
   if(action.type=="Fetch_data"){
    return{
     apiData: action.payload
    }
   }
-
+  else if(action.type=="ADD_TO_CART"){
+   return{
+    ...state,cart: [action.payload]
+   }
+  }
  }
-
  useEffect(()=>{
   fetch("https://dummyjson.com/recipes").then((res)=>{
    return res.json()
   }).then((data)=>{
    dispatch({type:"Fetch_data",payload:data.recipes})
   })
- })
+ },[])
 
- let [val, dispatch] = useReducer(reducer,data)
+ let [state, dispatch] = useReducer(reducer,data)
  return(
   <div>
-   <Context.Provider>
+   <Context.Provider value={{state,dispatch}}>
     {children}
    </Context.Provider>
   </div>

@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 // import './index.css'
 import App from './App.jsx'
 import {BrowserRouter}  from 'react-router-dom'
-import Context from './use context/Context.jsx'
+import Context, { ContectProvider } from './use context/Context.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* for props file of props folder
@@ -24,10 +24,12 @@ createRoot(document.getElementById('root')).render(
      <App/>
    </Context.Provider> */}
  
-    {/* 2) */}
-    <Context>
+    {/* 2) for recipe.jsx file */}
+    <BrowserRouter>
+     <ContectProvider>
       <App/>
-    </Context>
+     </ContectProvider>
+    </BrowserRouter>
 
   </StrictMode>
 )

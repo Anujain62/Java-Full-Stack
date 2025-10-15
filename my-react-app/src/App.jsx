@@ -2,11 +2,22 @@
 // for context file of use context folder
 import React from 'react'
 import Home from './use context/Home'
+import Recipe_data from './use context/api data/Recipe_data'
+import Cart from './use context/api data/Cart'
+import { Route, Routes } from 'react-router-dom'
 
 const App = () => {
   return (
     <div>
-      <Home/>
+      {/* for hpme.jsx file 
+      <Home/> */}
+
+      <Routes>
+        <Route   path='/'    element={<Recipe_data/>}/>
+        <Route   path='/Cart'    element={<Cart/>}/>
+      </Routes>
+
+      {/* <Recipe_data/> */}
     </div>
   )
 }
@@ -109,11 +120,11 @@ const App = () => {
 // const App = () => {
 //   return (
 //     <div>
-//       <Routes>
-//         <Route   path='/'    element={<Recipe_Api/>}/>
-//         <Route   path='/signup'    element={<SignUp/>}/>
-//         <Route   path='/login'    element={<Login/>}/>
-//       </Routes>
+      // <Routes>
+      //   <Route   path='/'    element={<Recipe_Api/>}/>
+      //   <Route   path='/signup'    element={<SignUp/>}/>
+      //   <Route   path='/login'    element={<Login/>}/>
+      // </Routes>
 //     </div>
 //   )
 // }
