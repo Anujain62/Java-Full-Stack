@@ -1,26 +1,47 @@
-
-// for context file of use context folder
 import React from 'react'
-import Home from './use context/Home'
-import Recipe_data from './use context/api data/Recipe_data'
-import Cart from './use context/api data/Cart'
-import { Route, Routes } from 'react-router-dom'
+import WatchStartStop from './WatchStartStop'
 
 const App = () => {
   return (
     <div>
-      {/* for hpme.jsx file 
-      <Home/> */}
-
-      <Routes>
-        <Route   path='/'    element={<Recipe_data/>}/>
-        <Route   path='/Cart'    element={<Cart/>}/>
-      </Routes>
-
-      {/* <Recipe_data/> */}
+      <WatchStartStop/>
     </div>
   )
 }
+
+
+
+
+
+
+
+
+
+
+
+
+// // for context file of use context folder
+// import React from 'react'
+// import Home from './use context/Home'
+// import Recipe_data from './use context/api data/Recipe_data'
+// import Cart from './use context/api data/Cart'
+// import { Route, Routes } from 'react-router-dom'
+
+// const App = () => {
+//   return (
+//     <div>
+//       {/* for hpme.jsx file 
+//       <Home/> */}
+
+//       <Routes>
+//         <Route   path='/'    element={<Recipe_data/>}/>
+//         <Route   path='/Cart'    element={<Cart/>}/>
+//       </Routes>
+
+//       {/* <Recipe_data/> */}
+//     </div>
+//   )
+// }
 
 
 
