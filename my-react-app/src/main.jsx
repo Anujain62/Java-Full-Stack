@@ -25,11 +25,17 @@ createRoot(document.getElementById('root')).render(
    </Context.Provider> */}
  
     {/* 2) for recipe.jsx file */}
-    <BrowserRouter>
+    {/* <BrowserRouter>
      <ContectProvider>
       <App/>
      </ContectProvider>
-    </BrowserRouter>
+    </BrowserRouter> */}
+
+
+    {/* for navbar folder */}
+     <BrowserRouter>
+      <App/>
+     </BrowserRouter>
 
   </StrictMode>
 )

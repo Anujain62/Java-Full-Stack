@@ -1,16 +1,78 @@
+// for multi-componant-in-one-file folder
 import React from 'react'
-import StopWatchCirculer from './StopWatchCirculer'
+import Home from './multi-componants-in-one-file/Home'
+import {New} from './multi-componants-in-one-file/Home'
 
 const App = () => {
   return (
     <div>
-      <StopWatchCirculer/>
+      <Home/>
+
+      {/* if we use objective export componant so now import same as export(means import as a object) */}
+      <New/>
     </div>
   )
 }
 
 
 
+
+
+
+
+
+
+// for navbar folder
+// import React from 'react'
+// import Navbar from './navbar folder/Navbar'
+// import Home from './navbar folder/Home'
+// import About from './navbar folder/About'
+// import SignIn from './navbar folder/SignIn'
+// import Signup from './navbar folder/Signup'
+// import { Route, Routes } from 'react-router-dom'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Navbar/>
+//       <Routes>
+//         <Route path='/' element={<Home/>} />
+//         <Route path='/signup' element={<Signup/>} />
+//         <Route path='/signin' element={<SignIn/>} />
+//         <Route path='/about' element={<About/>} />
+//       </Routes>
+//     </div>
+//   )
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// for stop watch circuler file
+// import React from 'react'
+// import StopWatchCirculer from './StopWatchCirculer'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <StopWatchCirculer/>
+//     </div>
+//   )
+// }
 
 
 

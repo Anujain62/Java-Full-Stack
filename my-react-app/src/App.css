@@ -593,13 +593,12 @@ h5{
 
 
 /* for stop watch circuler file */
-#container{
+/* #container{
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-top: 40%; */
 }
 h1{
   width: 200px;
@@ -649,11 +648,39 @@ h2{
   height: 30px;
   margin: 10px;
   border-radius: 10px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* for navbar file of navbar-folder folder */
+*{
+  margin: 0;
+  padding: 0;
 }
-
-
-
-
+#container{
+  height: 50px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 2px 2px 5px black;
+}
+button{
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: rgb(252, 107, 54);
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px black;
+}
 
 
 
