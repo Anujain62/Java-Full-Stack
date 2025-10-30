@@ -9,7 +9,7 @@ const WatchStartStop = () => {
   if(isRunning){
    timer = setInterval(()=>{
     Settime((prevTime)=> prevTime+1)
-   },100)
+   },10)
   }else{
    clearInterval(timer)
   }

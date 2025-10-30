@@ -1,14 +1,36 @@
 import React from 'react'
-import WatchStartStop from './WatchStartStop'
+import StopWatchCirculer from './StopWatchCirculer'
 
 const App = () => {
   return (
     <div>
-      <WatchStartStop/>
+      <StopWatchCirculer/>
     </div>
   )
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from 'react'
+// import WatchStartStop from './WatchStartStop'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <WatchStartStop/>
+//     </div>
+//   )
+// }
 
 
 

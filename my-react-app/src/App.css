@@ -482,7 +482,7 @@ h5{
 
 
 /* for recipe file of context folder */
- #container{
+ /* #container{
   width: 100vw;
   height: 100px;
   display: flex;
@@ -583,4 +583,79 @@ h5{
 #item{
   display: flex;
   justify-content: center;
-} 
+}  */
+
+
+
+
+
+
+
+
+/* for stop watch circuler file */
+#container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 40%; */
+}
+h1{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(199, 198, 198);
+  border: 5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+}
+#circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 33%;
+  border: 5px solid black;
+}
+h2{
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  transform: rotate(0deg) translateX(100px);
+  animation: spin 2s linear infinite;
+}
+@keyframes spin{
+  from{
+    transform: rotate(0deg) translateX((100px));
+  }
+  to{
+    transform: rotate(360deg) translateX(100px);
+  }
+}
+#btn{
+  position: absolute;
+  top: 70%;
+}
+#btn button{
+  width: 80px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
