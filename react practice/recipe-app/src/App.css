@@ -1,0 +1,346 @@
+*{
+ background-color: #1D546C;
+ color: #F4F4F4;
+ margin: 0;
+ padding: 0; 
+}
+
+/* for login file */
+#login{
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+#login-container{
+ width: 60%;
+ height: 60%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: 2px solid #000;
+ border-radius: 15px;
+ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#left-login{
+ width: 40%;
+ height: 100%;
+ background-color: #1A3D64;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border-bottom-left-radius: 13px;
+ border-top-left-radius: 13px;
+}
+#left-login img{
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+}
+#left-login p{
+ font-size: 30px;
+ font-weight: bolder;
+ background-color: #1A3D64;
+ margin-top: 40px;
+ text-shadow: 2px 2px 15px rgb(170, 170, 170);
+}
+#left-login p:hover{
+ color: orange;
+ text-shadow: 2px 2px 15px black;
+}
+#right-login{
+ width: 60%;
+ height: 100%;
+ background-color: #0C2B4E;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-evenly;
+ border-bottom-right-radius: 13px;
+ border-top-right-radius: 13px;
+}
+#right-login #detail p{
+ background-color: #0C2B4E;
+ font-size: 20px;
+}
+#right-login #detail input{
+ width: 350px;
+ height: 30px;
+ padding-left: 10px;
+ border: 2px solid gray;
+ border-radius: 5px;
+ background-color: #F4F4F4;
+ color: black;
+}
+#right-login #detail input:hover{
+ border: 2px solid black;
+ color: black;
+ background-color: rgb(171, 171, 171);
+ box-shadow: .5px .5px 10px gray, -.5px .5px 10px gray;
+}
+#right-login #pass{
+ width: 60%;
+ display: flex;
+ background-color: #0C2B4E;
+ justify-content: space-between;
+}
+#right-login #pass div{
+ background-color: #0C2B4E;
+ display: flex;
+}
+#right-login #pass div input{
+ width: 20px;
+ height: 20px;
+ margin-right: 5px;
+}
+#right-login #pass div p{
+ background-color: #0C2B4E;
+ font-size: 20px;
+}
+#right-login #pass p{
+ background-color: #0C2B4E;
+ font-size: 20px;
+}
+#right-login #pass #for-pass:hover{
+ color: orange;
+}
+#right-login > p{
+ margin-top: 20px;
+ background-color: #0C2B4E;
+ font-size: 30px;
+}
+#right-login button{
+ width: 330px;
+ height: 30px;
+ border: 2px solid gray;
+ background-color: #0C2B4E;
+ border-radius: 5px;
+ box-shadow: 1px 1px 10px gray, -1px -1px 10px gray;
+}
+#right-login button:hover{
+ background-color: #1A3D64;
+}
+#right-login p #link{
+ background-color: #0C2B4E;
+ margin-right: 10px;
+ color: orange;
+}
+#right-login #logo{
+ background-color: #0C2B4E;
+}
+#right-login #logo img{
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ margin: 10px;
+}
+
+
+
+/* for signup file */
+#signup{
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+#signup-container{
+ width: 60%;
+ height: 60%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: 2px solid #000;
+ background-color: green;
+ border-radius: 15px;
+ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#signup-container #left-signup{
+ width: 40%;
+ height: 100%;
+ background-color: #1A3D64;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border-bottom-left-radius: 13px;
+ border-top-left-radius: 13px;
+}
+#signup-container #left-signup .circle{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#signup-container #left-signup .circle .orbit{
+  border: 2px dashed black;
+  border-radius: 50%;
+  position: relative;
+  animation: rotateOrbit 10s linear infinite;
+}
+#signup-container #left-signup #top .one{
+ width: 100px;
+ height: 100px;
+ position: absolute;
+ top: 170px;
+ left: 320px;
+ background-color: #ECEBDE;
+}
+#signup-container #left-signup #top .two{
+ width: 90px;
+ height: 90px;
+ position: absolute;
+ left: 380px;
+ top: 210px;
+ background-color: #D7D3BF;
+}
+#signup-container #left-signup #top .three{
+ width: 80px;
+ height: 80px;
+ position: absolute;
+ left: 310px;
+ top: 230px;
+ background-color: #C1BAA1;
+}
+#signup-container #left-signup #top .four{
+ width: 60px;
+ height: 60px;
+ position: absolute;
+ left: 350px;
+ top: 215px;
+ background-color: #A59D84;
+}
+#signup-container #left-signup #bottom .one{
+ width: 100px;
+ height: 100px;
+ position: absolute;
+ top: 420px;
+ left: 520px;
+ background-color: #ECEBDE;
+}
+#signup-container #left-signup #bottom .two{
+ width: 90px;
+ height: 90px;
+ position: absolute;
+ left: 560px;
+ top: 470px;
+ background-color: #D7D3BF;
+}
+#signup-container #left-signup #bottom .three{
+ width: 80px;
+ height: 80px;
+ position: absolute;
+ left: 500px;
+ top: 470px;
+ background-color: #C1BAA1;
+}
+#signup-container #left-signup #bottom .four{
+ width: 60px;
+ height: 60px;
+ position: absolute;
+ left: 540px;
+ top: 460px;
+ background-color: #A59D84;
+}
+@keyframes rotateOrbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#left-signup p{
+ background-color: #1A3D64;
+ font-size: 25px;
+ font-weight: bolder;
+ margin-left: 55px;
+ margin-right: 55px;
+}
+#right-signup{
+ width: 60%;
+ height: 100%;
+ background-color: #0C2B4E;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-evenly;
+ border-bottom-right-radius: 13px;
+ border-top-right-radius: 13px;
+}
+#right-signup input{
+ width: 300px;
+ height: 30px;
+ padding-left: 10px;
+ border: 2px solid gray;
+ border-radius: 5px;
+ background-color: #F4F4F4;
+ color: black;
+ margin-top: 10px;
+}
+#right-signup input:hover{
+ border: 2px solid black;
+ color: black;
+ background-color: rgb(171, 171, 171);
+ box-shadow: .5px .5px 10px gray, -.5px .5px 10px gray;
+}
+#right-signup legend{
+  font-size: 20px;
+  color: gainsboro;
+  font-weight: bolder;
+  background-color: #0C2B4E;
+}
+#right-signup #box{
+  width: 70%;
+  background-color: #0C2B4E;
+  display: flex;
+  justify-content: space-evenly;
+}
+#right-signup #box input{
+  width: 20px;
+  height: 20px;
+}
+#right-signup #box p{
+  font-size: 17px;
+  background-color: #0C2B4E;
+}
+#right-signup #box p b{
+  font-weight: bolder;
+  background-color: #0C2B4E;
+  color: orange;
+  text-decoration: underline;
+}
+#right-signup button{
+  width: 330px;
+ height: 30px;
+ border: 2px solid gray;
+ background-color: #0C2B4E;
+ border-radius: 5px;
+ box-shadow: 1px 1px 10px gray, -1px -1px 10px gray;
+}
+#right-signup button:hover{
+ background-color: #1A3D64;
+ color: orange;
+}
+#right-signup > p{
+  font-size: 15px;
+  background-color: #0C2B4E;
+}
+#right-signup > p #link{
+  background-color: #0C2B4E;
+  color: orange;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+#right-signup #logo{
+  background-color: #0C2B4E;
+}
+#right-signup #logo img{
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ margin: 10px;
+}

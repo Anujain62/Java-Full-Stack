@@ -13,7 +13,7 @@ const Home = () => {
 }
 
 
-// if we wants to use this componant in another file, so export this as a object because default export is only one time in a file.
+// if we wants to use this componant in another file, so export this as a object because only one componant was exported at a time in one file.1q`
 const New = ({name})=>{
  return(
   <div>

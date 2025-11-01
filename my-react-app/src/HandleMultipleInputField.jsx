@@ -9,7 +9,7 @@ export const HandleMultipleInputField = () => {
   passWord:""
  })  
  function fun1(e){
-  let  {name,value}=    e.target
+  let  {name,value}= e.target
   SetInput({...input,[name]:value})
   console.log(input)
  }  

@@ -1,7 +1,6 @@
 // for multi-componant-in-one-file folder
 import React from 'react'
-import Home from './multi-componants-in-one-file/Home'
-import {New} from './multi-componants-in-one-file/Home'
+import Home, {New} from './multi-componants-in-one-file/Home'
 
 const App = () => {
   return (
